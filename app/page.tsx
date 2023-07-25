@@ -1,3 +1,4 @@
+import MyProfilePic2 from "./components/MyProfilePic2";
 import Post2 from "./components/Posts2";
 
 
@@ -10,15 +11,20 @@ export default function Home() {
           I&apos;m <span className="font-bold">Elsa</span>.
         </span>
       </p>
-      <div className="max-w-screen-xl mx-auto text-l text-left">
-        <p>
-          Je m'appelle Elsa, j'ai 34 ans, et je suis étudiante en développement web et logiciel chez Ada Tech School à Nantes,
-          je recherche une alternance d'un an à partir d'octobre ou novembre 2023,
-          pour travailler 4 jours par semaine.
-        </p>
-
+      <div className="flex">
+        <div className="md:w-2/3 md:order-1 ml-12 mr-12 text-sm text-left">
+          <p>
+            Je m'appelle Elsa, j'ai 34 ans, et je suis étudiante en développement web et logiciel chez Ada Tech School à Nantes,
+            je recherche une alternance d'un an à partir d'octobre ou novembre 2023,
+            pour travailler 4 jours par semaine.
+          </p></div>
+        <div className="md:w-1/3 md:order-2">
+          <MyProfilePic2 />
+        </div>
       </div>
-      <Post2 />
+      <div className="flex">
+        <Post2 />
+      </div>
     </main>
   )
 }
