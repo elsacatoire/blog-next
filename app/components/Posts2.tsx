@@ -1,5 +1,6 @@
 import { getSortedPostsData } from "@/lib/posts"
 import ListItem from "./ListItem"
+import Link from "next/link"
 
 export default function Posts2() {
     const posts = getSortedPostsData().slice(-2)
@@ -11,8 +12,8 @@ export default function Posts2() {
                 {posts.map(post => (
                     <ListItem key={post.id} post={post} />
                 ))}
-
             </ul>
+            <Link className="underline text-green-700" href="/posts">Voir tous les projets</Link>
         </section>
     )
 }
