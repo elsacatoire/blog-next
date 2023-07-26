@@ -6,10 +6,11 @@ export default function Footer() {
 
         <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023.
+                <span className="text-sm text-green-700 sm:text-left dark:text-gray-400">© 2023.
                     <Link href="/" className="hover:underline">Elsa Catoire</Link>. All Rights Reserved.
+                    <p>Created with my own hands with Next.js and TailwindCSS and Markdown</p>
                 </span>
-                <ul className="flex flex-wrap items-center mt-8 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+                <ul className="flex flex-wrap items-center mt-8 text-sm font-medium text-green-700 dark:text-gray-400 sm:mt-0">
                     <li>
                         <Link href="https://www.linkedin.com/in/elsa-catoire-11402753/" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="w-10 h-10 m-2" />

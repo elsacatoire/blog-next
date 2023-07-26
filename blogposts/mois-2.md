@@ -20,3 +20,5 @@ Oui, je réussis. Une fois sur 3, une fois sur 10, une fois sur 100. Oui, mais j
 “Being smart is only having the good questions, not having the answers”. Cette phrase d’un ami Slovène, passablement ivre, m’est revenue en mémoire il y a peu. Je la laisse là, parce ce qu’elle résume bien ce deuxième mois d’apprentie développeuse.
 
 J’retourne dans ma piscine
+
+![visage souriant sous l'eau](/images/2-blog-post.webp "Optimistic piscine")
