@@ -6,7 +6,7 @@ export default function ProjectPosts() {
     return (
         <section className="mt-6 mx-auto max-w-2xl">
             <h2 className="text-2xl font-bold
-             dark:text-white/90">Les articles du blog</h2>
+             dark:text-white/90">Mes projets d'apprentissage</h2>
             <ul className="w-full">
                 {posts.map(post => (
                     <ListItemProject key={post.id} post={post} />

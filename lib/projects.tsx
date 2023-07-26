@@ -45,7 +45,7 @@ export async function getProjectData(id: string) {
 
     const contentHtml = processedContent.toString();
 
-    const projectPostWithHTML: BlogPost & { contentHtml: string } = {
+    const projectPostWithHTML: ProjectPost & { contentHtml: string } = {
         id,
         title: matterResult.data.title,
         date: matterResult.data.date,
