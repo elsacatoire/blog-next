@@ -17,7 +17,7 @@ export default function Home() {
       <div className="flex">
         <div className="md:w-2/3 md:order-1 ml-12 mr-12 text-lg text-left">
           <p>
-            Je m'appelle Elsa, j'ai 34 ans, et je suis étudiante en développement web et logiciel chez
+            Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement web et logiciel chez
             <span className="underline"><Link href="https://adatechschool.fr/"> Ada Tech School</Link></span> à Nantes.
             <br />
             <br />
