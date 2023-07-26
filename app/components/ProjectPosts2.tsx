@@ -3,7 +3,7 @@ import ListItemProject from "./ListItemProjects"
 import Link from "next/link"
 
 export default function ProjectPosts2() {
-    const posts = getSortedProjectsData().slice(-2)
+    const posts = getSortedProjectsData().slice(0, 2)
     return (
         <section className="mt-6 mx-auto max-w-2xl">
             <h2 className="text-2xl font-bold text-center text-green-400

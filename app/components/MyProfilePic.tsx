@@ -4,12 +4,10 @@ export default function MyProfilePic() {
     return (
         <section className="w-full mx-auto">
             <Image
-                className="border-4 border-black
-                 dark:border-slate-500 drop-shadow-xl
-                  shadow-black rounded-full mx-auto mt-8"
+                className="mx-auto mt-0"
                 src="/images/profile.jpg"
-                width={200}
-                height={200}
+                width={400}
+                height={400}
                 alt="Elsa Catoire"
                 priority={true}
             />
