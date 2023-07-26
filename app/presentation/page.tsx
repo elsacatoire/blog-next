@@ -14,7 +14,7 @@ export default function Présentation() {
                 <p className="ml-12 mr-12 text-m text-left">
                     Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement
                     web et logiciel chez Ada Tech School à Nantes,
-                    je recherche une alternance d&rsquo;un an à partir d&rsquo;octobre ou novembre 2023,
+                    je recherche une alternance d&rsquo;un an à partir d&rsquo;octobre ou de novembre 2023,
                     pour travailler 4 jours par semaine.
                 </p>
                 <br />
@@ -23,7 +23,7 @@ export default function Présentation() {
                         <p>
                             En alternance, j&rsquo;ai hâte de travailler sur des projets concrets et de rencontrer
                             des personnes inspirantes auprès desquelles je pourrais apprendre et grandir.
-                            Participer à la vie d'une organisation est quelque chose que j&rsquo;ai toujours apprécié, et c&rsquo;est avec plaisir que j'intégrerais vos équipes.
+                            Participer à la vie d&rsquo;une organisation est quelque chose que j&rsquo;ai toujours apprécié, et c&rsquo;est avec plaisir que j&rsquo;intégrerais vos équipes.
                         </p>
                         <br />
                         <p>Dans mon précédent métier en tant que manager de projets et établissements culturels dans le secteur public, j&rsquo;ai acquis une précieuse expérience dans la prise de responsabilités de manière indépendante. De plus, mes expériences de voyages en solo ont renforcé ma capacité à être fiable et autonome, des qualités que je considère comme essentielles dans n&rsquo;importe quel environnement de travail, même en dehors du cadre technique.
@@ -39,8 +39,8 @@ export default function Présentation() {
                             Ma passion pour ce métier de développeuse réside dans l&rsquo;apprentissage continu.
                             Apprendre quoi ?
                             Tout !
-                            L&rsquo;intérêt c'est le produit. Ce qu&rsquo;il me permet de travailler et ce qu&rsquo;il apporte à mes contemporains
-                            Ce qui compte le plus pour moi, c'est l&rsquo;impact final du produit.
+                            L&rsquo;intérêt c&rsquo;est le produit. Ce qu&rsquo;il me permet de travailler et ce qu&rsquo;il apporte à mes contemporains
+                            Ce qui compte le plus pour moi, c&rsquo;est l&rsquo;impact final du produit.
                             Je suis prête à apprendre n&rsquo;importe quelle technologie pour un projet qui m&rsquo;enthousiasme et qui correspond à mes valeurs.
                         </p>
                     </div>
