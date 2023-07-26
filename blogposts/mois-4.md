@@ -1,7 +1,8 @@
 ---
-title: "3 mois"
+title: "4 mois : pile au milieu"
 date: "2023-06-05"
 ---
+Mois 4, le 05 juin 2023
 
 Cher journal,
 

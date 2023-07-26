@@ -22,7 +22,7 @@ export default function Home() {
           <MyProfilePic2 />
         </div>
       </div>
-      <div className="flex">
+      <div className="left">
         <Post2 />
       </div>
     </main>

@@ -1,7 +1,8 @@
 ---
-title: "1 mois"
+title: "1 mois : je serai développeuse"
 date: "2023-02-24"
 ---
+Mois 1, le 24 février 2023,
 
 Cher journal,
 

@@ -1,7 +1,8 @@
 ---
-title : "6 mois"
+title : "6 mois : comme un effet Dunning-Kruger"
 date : "2023-07-21"
 ---
+Mois 6, le 21 juillet 2023,
 
 Cher journal,
 

@@ -1,7 +1,8 @@
 ---
-title: "5 mois"
+title: "5 mois : la passion (des autres)"
 date: "2023-06-21"
 ---
+Mois 5, le 21 juin 2023,
 
 Cher journal,
 

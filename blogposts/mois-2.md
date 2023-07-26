@@ -1,7 +1,8 @@
 ---
-title: "2 mois"
+title: "2 mois : bébé nageuse"
 date: "2023-03-27"
 ---
+Mois 2, le 27 mars 2023
 
 ## “Maintenant, t’es dans l’grand bain, devine comment on nage”*
 
