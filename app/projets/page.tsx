@@ -1,15 +1,15 @@
 
+import ProjectPosts from "../components/ProjectPosts"
 
-export default function Projets() {
+export default function Projects() {
     return (
         <main className="px-6 mx-auto">
             <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
-                Mes projets ADA tech school
+                Here are my articles
             </p>
-
-            <p className="mt-12 mb-12 text-3xl text-center dark:text-white">
-                Mes projets perso
-            </p>
+            <div>
+                <ProjectPosts />
+            </div>
 
         </main>
     )

@@ -1,8 +1,8 @@
-import { getSortedPostsData } from "@/lib/posts"
+import { getSortedProjectsData } from "@/lib/projects"
 import ListItemProject from "./ListItemProjects"
 
-export default function Posts() {
-    const posts = getSortedPostsData()
+export default function ProjectPosts() {
+    const posts = getSortedProjectsData()
     return (
         <section className="mt-6 mx-auto max-w-2xl">
             <h2 className="text-2xl font-bold

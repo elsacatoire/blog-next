@@ -6,10 +6,10 @@ import html from 'remark-html'
 
 const postsDirectory = path.join(process.cwd(), 'projectposts')
 
-export function getSortedPostsData() {
+export function getSortedProjectsData() {
     // Get file names under /posts
     const fileNames = fs.readdirSync(postsDirectory);
-    const allPostsData = fileNames.map((fileName) => {
+    const allProjectsData = fileNames.map((fileName) => {
         // Remove ".md" from file name to get id
         const id = fileName.replace(/\.md$/, '');
 
@@ -20,19 +20,19 @@ export function getSortedPostsData() {
         // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents);
 
-        const blogPost: BlogPost = {
+        const projectPost: ProjectPost = {
             id,
             title: matterResult.data.title,
             date: matterResult.data.date,
         }
 
         // Combine the data with the id
-        return blogPost
+        return projectPost
     });
     // Sort posts by date
-    return allPostsData.sort((a, b) => a.date < b.date ? 1 : -1);
+    return allProjectsData.sort((a, b) => a.date < b.date ? 1 : -1);
 }
-export async function getPostData(id: string) {
+export async function getProjectData(id: string) {
     const fullPath = path.join(postsDirectory, `${id}.md`);
     const fileContents = fs.readFileSync(fullPath, 'utf8');
 
@@ -45,7 +45,7 @@ export async function getPostData(id: string) {
 
     const contentHtml = processedContent.toString();
 
-    const blogPostWithHTML: BlogPost & { contentHtml: string } = {
+    const projectPostWithHTML: BlogPost & { contentHtml: string } = {
         id,
         title: matterResult.data.title,
         date: matterResult.data.date,
@@ -53,5 +53,5 @@ export async function getPostData(id: string) {
     }
 
     // Combine the data with the id
-    return blogPostWithHTML
+    return projectPostWithHTML
 }
