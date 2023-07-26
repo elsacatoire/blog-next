@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import { useRouter } from "next/router";
+
 import Link from "next/link";
 import Image from "next/image";
 
@@ -7,7 +6,7 @@ export default function Navbar() {
 
     return (
 
-        <nav className="bg-white border-gray-200 dark:bg-gray-900 p-4 sticky top-0 drop-shadow-xl z-10">
+        <nav className="bg-grey border-gray-200 dark:bg-gray-900 p-4 sticky top-0 drop-shadow-xl z-10">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link href="/" className="flex items-center">
                     <Image src="/images/logo.png" className="h-12 w-12 mr-8" alt="Flowbite Logo" width={100} height={100} />
