@@ -24,6 +24,8 @@ export function getSortedProjectsData() {
             id,
             title: matterResult.data.title,
             date: matterResult.data.date,
+            stack: matterResult.data.stack,
+            image: matterResult.data.image,
         }
 
         // Combine the data with the id
@@ -49,7 +51,9 @@ export async function getProjectData(id: string) {
         id,
         title: matterResult.data.title,
         date: matterResult.data.date,
+        stack: matterResult.data.stack,
         contentHtml,
+        image: matterResult.data.image,
     }
 
     // Combine the data with the id

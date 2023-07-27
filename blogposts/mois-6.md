@@ -1,6 +1,7 @@
 ---
 title : "6 mois : comme un effet Dunning-Kruger"
 date : "2023-07-21"
+image: "/images/blog/6-blog-post.webp"
 ---
 Mois 6, le 21 juillet 2023,
 

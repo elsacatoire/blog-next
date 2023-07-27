@@ -25,6 +25,8 @@ export default async function Project({ params }: { params: { projectId: string 
 
     const projects = getSortedProjectsData()
     const { projectId: projectId } = params
+    console.log(projectId);
+
 
     if (!projects.find(project => project.id === projectId)) notFound()
 
@@ -41,7 +43,7 @@ export default async function Project({ params }: { params: { projectId: string 
             <article>
                 <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
                 <p>
-                    <Link href="/">← Back to home</Link>
+                    <Link href="/projets">← Retour aux projets</Link>
                 </p>
             </article>
         </main>

@@ -1,6 +1,7 @@
 ---
 title: "5 mois : la passion (des autres)"
 date: "2023-06-21"
+image: "/images/blog/5-blog-post.webp"
 ---
 Mois 5, le 21 juin 2023,
 

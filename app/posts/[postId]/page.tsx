@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import getFormattedDate from '@/lib/getFormattedDate'
 import Link from "next/link";
 import Image from "next/image";
+import { log } from "console";
 
 export function generateMetadata({ params }: { params: { postId: string } }) {
 
@@ -27,6 +28,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
     const posts = getSortedPostsData()
     const { postId } = params
 
+
     if (!posts.find(post => post.id === postId)) notFound()
 
     const { title, date, contentHtml } = await getPostData(postId)
@@ -42,7 +44,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <article>
                 <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
                 <p className="mb-8 mt-8 text-xl">
-                    <Link href="/">← Back to home</Link>
+                    <Link href="/posts">← Retour aux articles</Link>
                 </p>
             </article>
         </main>
