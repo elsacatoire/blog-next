@@ -26,5 +26,5 @@ body {
 .imgProject {
   width: 192px !important;
   height: 192px !important;
-  object-fit: fill;
+  object-fit: cover;
 }

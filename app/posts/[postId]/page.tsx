@@ -42,7 +42,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
             <article>
                 <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
                 <p className="mb-8 mt-8 text-xl">
-                    <Link href="/">← Back to home</Link>
+                    <Link href="/posts">← Retour aux articles</Link>
                 </p>
             </article>
         </main>

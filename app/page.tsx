@@ -29,29 +29,28 @@ export default function Home() {
             <li>- Secteur : Bordeaux, Nantes ou Toulouse</li>
           </ul>
 
-          <div className="flex mt-6">
-            <div>
-              Mes technos favorites :
-              <ul className="ml-5 mb-5">
-                <li>- JS/HTML/CSS, TypeScript, Next.js</li>
-                <li>- Python</li>
-                <li>- NoSQL - MongoDB</li>
-                <li>- API REST</li>
-              </ul>
-            </div>
+          <div className="flex felx-wrap mt-6">
+            <ul className="w-full md:w-1/3 md:order-1 p-4 min-w-[200px]">
+              <p>Mes technos favorites :</p>
+              <li>- JS/HTML/CSS, TypeScript, Next.js</li>
+              <li>- Python</li>
+              <li>- NoSQL - MongoDB</li>
+              <li>- API REST</li>
+            </ul>
 
-            <ul className="ml-5 mb-5">
-              <p>J'apprends aussi :</p>
+            <ul className="w-full md:w-1/3 md:order-2 p-4 min-w-[200px]">
+              <p>J&rsquo;apprends aussi :</p>
               <li>- Java</li>
               <li>- SQL</li>
               <li>- PHP</li>
             </ul>
 
-            <div>
-
-            </div>
-
-
+            <ul className="w-full md:w-1/3 md:order-3 p-4 min-w-[200px]">
+              <p>Dans le backlog :</p>
+              <li>- Django, FAST API</li>
+              <li>- Dev mobile</li>
+              <li>- Docker</li>
+            </ul>
           </div>
 
         </div>
@@ -63,7 +62,9 @@ export default function Home() {
         <div className="mr-12">
           <ProjectPosts2 />
         </div>
-        <div><Post2 /></div>
+        <div className="mr-12">
+          <Post2 />
+        </div>
       </div>
     </main>
   )
