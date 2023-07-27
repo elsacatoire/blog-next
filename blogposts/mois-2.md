@@ -1,7 +1,7 @@
 ---
 title: "2 mois : bébé nageuse"
 date: "2023-03-27"
-photo: "2-blog-post.webp"
+image: "/images/blog/2-blog-post.webp"
 ---
 Mois 2, le 27 mars 2023
 

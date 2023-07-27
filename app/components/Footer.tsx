@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaMedium, FaInstagram } from "react-icons/fa"
 export default function Footer() {
     return (
 
-        <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
+        <footer className="bg-gray-200 rounded-lg shadow m-4 dark:bg-gray-800">
             <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span className="text-sm text-green-700 sm:text-left dark:text-gray-400">© 2023.
                     <Link href="/" className="hover:underline">Elsa Catoire</Link>. All Rights Reserved.

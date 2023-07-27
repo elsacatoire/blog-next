@@ -1,7 +1,7 @@
 ---
 title: "1 mois : je serai développeuse"
 date: "2023-02-24"
-photo: "1-blog-post.webp"
+image: "/images/blog/1-blog-post.webp"
 ---
 ## Cher journal,
 

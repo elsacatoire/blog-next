@@ -2,7 +2,7 @@ type BlogPost = {
     id: string,
     title: string
     date: string,
-    //image: string,
+    image: string,
 }
 
 type ProjectPost = {

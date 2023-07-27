@@ -1,7 +1,7 @@
 ---
 title: "4 mois : pile au milieu"
 date: "2023-06-05"
-photo: "4-blog-post.webp"
+image: "/images/blog/4-blog-post.webp"
 ---
 Mois 4, le 05 juin 2023
 
