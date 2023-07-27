@@ -25,6 +25,8 @@ export default async function Project({ params }: { params: { projectId: string 
 
     const projects = getSortedProjectsData()
     const { projectId: projectId } = params
+    console.log(projectId);
+
 
     if (!projects.find(project => project.id === projectId)) notFound()
 
