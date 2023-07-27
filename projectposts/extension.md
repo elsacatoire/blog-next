@@ -2,7 +2,7 @@
 title: "Web4all - extension de naviguateur"
 date: "2023-05-20"
 stack: "Stack: JS, CSS, HTML"
-image: "/images/pico2.jpg"
+image: "/images/extension/Dyslexie.jpg"
 ---
 
 mai 20233. “Web-4-all”

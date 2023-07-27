@@ -1,6 +1,7 @@
 ---
 title: "3 mois : fatiguée d'apprendre"
 date: "2023-04-25"
+photo: "3-blog-post.webp"
 ---
 
 Mois 3, le 25 avril 2023

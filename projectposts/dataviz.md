@@ -2,7 +2,7 @@
 title: "AdaGetAway - premier site dynamique"
 date: "2023-03-14"
 stack: "JS (librairie P5)"
-image: "/images/pico3.jpg"
+image: "/images/dataviz/screen.jpg"
 ---
 
 mars 2023. “Ada GetAway” 

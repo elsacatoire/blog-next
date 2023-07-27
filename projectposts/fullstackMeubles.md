@@ -2,7 +2,7 @@
 title: "Antikea - plateforme de vente en ligne full-stack"
 date: "2023-03-14"
 stack: "Stack: React, NodeJS, Express, MongoDB"
-image: "/images/chat.jpg"
+image: "/images/antikea/accueil.jpeg"
 ---
 
 juin 2023. “Antikea” Full Stack

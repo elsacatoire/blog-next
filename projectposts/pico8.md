@@ -2,7 +2,7 @@
 title: "Camille contre le capitalisme - mini jeu"
 date: "2023-02-20"
 stack: "Stack: Pico8, Lua, Github"
-image: "/images/pico1.jpg"
+image: "/images/pico/pico3.jpg"
 ---
 
 février 2023. “Camille contre le capitalisme”

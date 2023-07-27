@@ -29,7 +29,7 @@ export default function Home() {
             <li>- Secteur : Bordeaux, Nantes ou Toulouse</li>
           </ul>
 
-          <div className="flex">
+          <div className="flex mt-6">
             <div>
               Mes technos favorites :
               <ul className="ml-5 mb-5">
