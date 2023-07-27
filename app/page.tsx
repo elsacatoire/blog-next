@@ -2,7 +2,6 @@ import MyProfilePic2 from "./components/MyProfilePic2";
 import Post2 from "./components/Posts2";
 import ProjectPosts2 from "./components/ProjectPosts2";
 import Link from "next/link";
-import MySkills from "./components/SkillCard";
 
 
 export default function Home() {
