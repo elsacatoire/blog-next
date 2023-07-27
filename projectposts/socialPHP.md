@@ -1,6 +1,8 @@
 ---
 title: "Safe place - réseau social PHP"
 date: "2023-06-14"
+stack: "Stack : PHP, CSS, HTML, MySQL, Apache"
+image: "/images/chat.jpg"
 ---
 
 juin 2023. “Safe Place”

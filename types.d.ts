@@ -9,4 +9,6 @@ type ProjectPost = {
     id: string,
     title: string,
     date: string,
+    stack: string,
+    image: string,
 }

@@ -7,17 +7,18 @@ type Props = {
 }
 
 export default function ListItemProject({ post }: Props) {
-    const { id, title, date } = post
+    const { id, title, date, stack, image } = post
     const formattedDate = getFormattedDate(date)
 
     return (
 
         <Link className="mt-5 flex flex-col items-center bg-gray-200 border border-green-700 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700" href={`/posts/${id}`}>
-            <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" width={500}
-                height={500} src="/images/pico1.jpg" alt="" />
+            <Image className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" width={400}
+                height={400} src={image} alt="" />
             <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
-                <p className="mb-3 font-normal text-green-700 dark:text-gray-400">{formattedDate}</p>
+                <h6 className="text-green-900">{stack}</h6>
+                <p className="text-right mt-7 mb-3 font-normal text-green-700 dark:text-gray-400">{formattedDate}</p>
             </div>
         </Link>
 
