@@ -46,7 +46,7 @@ export default function Home() {
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; API REST</p>
             </div>
           </div>
-          <div className="w-full md:w-1/3 md:order-1 p-3">
+          <div className="w-full md:w-1/3 md:order-2 p-3">
             <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">J&rsquo;apprends aussi</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Java</p>
@@ -55,7 +55,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/3 md:order-1 p-3">
+          <div className="w-full md:w-1/3 md:order-3 p-3">
             <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backlog</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Django, FAST API</p>
@@ -64,18 +64,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-
       </div>
-      <div className="mt-10 text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <div className="flex flex-col md:flex-row md:space-x-8 items-start">
-          <div className="mr-12">
+      <div className="justify-between flex flex-wrap">
+        <div className="mt-10 text-lg text-left block p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <div className="mr-1">
             <ProjectPosts2 />
           </div>
-          <div className="mr-12">
+        </div>
+        <div className="mt-10 text-lg text-left block p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <div className="mr-1">
             <Post2 />
           </div>
         </div>
       </div>
-    </main>
+
+
+    </main >
   )
 }
