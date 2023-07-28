@@ -28,3 +28,8 @@ body {
   height: 192px !important;
   object-fit: cover;
 }
+
+/* Custom CSS to add spacing between paragraphs */
+.markdown-content p {
+  margin-bottom: 1rem;
+}
