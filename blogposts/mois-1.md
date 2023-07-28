@@ -6,7 +6,7 @@ image: "/images/blog/1-blog-post.webp"
 ## Cher journal,
 
 
-Cela fait un mois que j’ai garé le camion dans un jardin nantais. Après plus de deux ans de road trip seule sur les routes d’Europe, avec toi mon journal, je pose bagage, je veux apprendre. Laisser de côté mon métier de manager de projets culturels pour découvrir celui de développeuse. Gonflée à bloc, j’ai un nouveau monde à découvrir.
+### Cela fait un mois que j’ai garé le camion dans un jardin nantais. Après plus de deux ans de road trip seule sur les routes d’Europe, avec toi mon journal, je pose bagage, je veux apprendre. Laisser de côté mon métier de manager de projets culturels pour découvrir celui de développeuse. Gonflée à bloc, j’ai un nouveau monde à découvrir.
 
 
 
