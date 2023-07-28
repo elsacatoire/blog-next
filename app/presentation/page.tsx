@@ -2,7 +2,7 @@ import MyProfilePic from "../components/MyProfilePic"
 
 export default function Présentation() {
     return (
-        <main className="px-6 ml-20 mr-20">
+        <main className="px-6 ml-20 mr-20 mb-10">
             <div className="mt-10 text-lg text-left block max-w-m p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div className="flex mt-5">
                     <div className="md:w-2/3 md:order-1 pr-12">
@@ -38,7 +38,7 @@ export default function Présentation() {
 
 
                     </div>
-                    <div className="md:w-1/3 md:order-2 rounded-lg center">
+                    <div className="md:w-1/3 md:order-2 center">
                         <MyProfilePic />
                         <div className=" mt-5 p-6 bg-gray-300 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Et mon temps libre ?</h5>
@@ -55,13 +55,10 @@ export default function Présentation() {
                             <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2013&rarr; </span> Master2 Management Culturel</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2011&rarr; </span> Licence3 LEA Anglais espagnol</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2007&rarr; </span> BAC S - Sciences de l'ingénieur</p>
-
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </main>
     )
 }

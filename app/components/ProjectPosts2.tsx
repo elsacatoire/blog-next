@@ -13,7 +13,7 @@ export default function ProjectPosts2() {
                     <ListItemProject key={post.id} post={post} />
                 ))}
             </ul>
-            <Link className="underline text-green-400" href="/projets">Les projets  &rarr;</Link>
+            <Link className="underline text-green-700" href="/projets">Les projets  &rarr;</Link>
 
         </section>
     )

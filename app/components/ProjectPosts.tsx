@@ -4,9 +4,8 @@ import ListItemProject from "./ListItemProjects"
 export default function ProjectPosts() {
     const posts = getSortedProjectsData()
     return (
-        <section className="mt-6 mx-auto max-w-2xl">
-
-            <div className="flex flex-wrap justify-center"></div>
+        <section className="mt-10 mx-auto">
+            <div className="w-full grid lg:grid-cols-2 gap-3"></div>
             {posts.map(post => (
                 <ListItemProject key={post.id} post={post} />
             ))}
