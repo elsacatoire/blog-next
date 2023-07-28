@@ -11,7 +11,7 @@ export default function MyProfilePic(/* { src, alt, width, height, priority = tr
     return (
         <section className="w-full mx-auto">
             <Image
-                className="mx-auto mt-0"
+                className="mx-auto mt-0 rounded-lg"
                 src="/images/profile.jpg"
                 width={500}
                 height={500}

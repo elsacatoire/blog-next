@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex mt-5">
         <div className="md:w-2/3 md:order-1 ml-12 mr-12 text-lg text-left block max-w-m p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-          <p className=" mb-6 text-3xl text-center dark:text-gray-200">
+          <p className=" b-6 text-3xl text-center dark:text-gray-200">
             Bonjour et bienvenue 👋&nbsp;
             <span className="whitespace-nowrap">
               Hi I&apos;m <span className="font-bold">Elsa</span>
@@ -22,15 +22,15 @@ export default function Home() {
               <Link href="https://adatechschool.fr/"> Ada Tech School</Link></span> à Nantes.</p>
           <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 6/9 mois réalisés !</p>
           <h5 className="mt-10 text-center text-2xl tracking-tight text-green-700 dark:text-white">Je recherche une <span className="font-bold">alternance en contrat pro</span></h5>
-          <p className="font-normal text-gray-700 dark:text-gray-400">- Durée : 12 mois</p>
-          <p className="font-normal text-gray-700 dark:text-gray-400">- Début : octobre/novembre 2023</p>
-          <p className="font-normal text-gray-700 dark:text-gray-400">- Rythme : 4 jours par semaine en entreprise</p>
-          <p className="font-normal text-gray-700 dark:text-gray-400">- Secteur : Bordeaux, Nantes ou Toulouse</p>
+          <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Durée : 12 mois</p>
+          <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Début : octobre/novembre 2023</p>
+          <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Rythme : 4 jours par semaine en entreprise</p>
+          <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Secteur : Bordeaux, Nantes ou Toulouse</p>
 
           <div className="flex felx-wrap mt-12 ">
             <div className="block w-full md:w-1/3 md:order-1 mr-3 max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-              <h4 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Technos & # 9829;</h4>
-              <p className="font-normal text-gray-700 dark:text-gray-400">- JavaScript/HYML/CSS, TypeScript, Next.js</p>
+              <h4 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Technos &#9829;</h4>
+              <p className="font-normal text-gray-700 dark:text-gray-400"> JavaScript/HYML/CSS, TypeScript, Next.js</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">- Python</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">- NoSQL avec MongoDB</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">- API REST</p>
