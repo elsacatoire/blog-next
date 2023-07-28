@@ -8,7 +8,7 @@ export default function Projects() {
                 <h5 className="mt-10 text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Mes projets d&rsquo;apprentissage
                 </h5>
-                <div>
+                <div >
                     <ProjectPosts />
                 </div>
             </div>
