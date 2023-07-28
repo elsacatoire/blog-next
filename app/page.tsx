@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="px-6 ml-20 mr-20 mb-10">
       <div className="mt-10 text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-        <div className="flex mt-5">
+        <div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
           <div className="md:w-2/3 md:order-1 ml-5">
             <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Bonjour et bienvenue 👋&nbsp;
@@ -60,8 +60,7 @@ export default function Home() {
 
       </div>
       <div className="mt-10 text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-        <div className="flex flex-col justify-center md:flex-row md:space-x-8 items-start">
+        <div className="flex flex-col md:flex-row md:space-x-8 items-start">
           <div className="mr-12">
             <ProjectPosts2 />
           </div>

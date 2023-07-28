@@ -5,7 +5,7 @@ export default function Footer() {
     return (
 
         <footer className="bg-gray-200 shadow dark:bg-gray-800">
-            <div className="max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <span className="text-sm text-green-700 sm:text-left dark:text-gray-400">© 2023.
                     <Link href="/" className="hover:underline">Elsa Catoire</Link>. All Rights Reserved.
                     <p>Created with my own hands with Next.js, TailwindCSS and Markdown</p>
