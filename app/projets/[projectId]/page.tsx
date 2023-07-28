@@ -42,7 +42,7 @@ export default async function Project({ params }: { params: { projectId: string 
             </p>
             <article>
                 <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-                <p>
+                <p className="mb-8 mt-8 text-xl">
                     <Link href="/projets">← Retour aux projets</Link>
                 </p>
             </article>
