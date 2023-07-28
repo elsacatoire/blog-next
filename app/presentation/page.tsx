@@ -49,7 +49,7 @@ export default function Présentation() {
                             <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2016&rarr; </span> Concours Cat A - Attachée Territoriale</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2013&rarr; </span> Master2 Management Culturel</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2011&rarr; </span> Licence3 LEA Anglais espagnol</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2007&rarr; </span> BAC S - Sciences de l'&rsquo;ngénieur</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400"><span className="font-bold text-green-700">2007&rarr; </span> BAC S - Sciences de l&rsquo;ngénieur</p>
                         </div>
                     </div>
                 </div>
