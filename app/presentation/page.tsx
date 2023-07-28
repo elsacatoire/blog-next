@@ -42,12 +42,12 @@ export default function Présentation() {
                         <MyProfilePic />
                         <div className=" mt-5 p-6 bg-gray-300 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Et mon temps libre ?</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">- Perchée sur une montagne</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">- Randonnée, escalade</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">- Musique, ukulélé, chant</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">- Ecologie, green-tech, low-tech</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">- Bricoloage, DIY</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">- Ecriture, jeux</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Perchée sur une montagne</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Randonnée, escalade</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Musique, ukulélé, chant</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Ecologie, green-tech, low-tech</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Bricoloage, DIY</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Ecriture, jeux</p>
                         </div>
                         <div className=" mt-5 p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Diplomes et concours</h5>
