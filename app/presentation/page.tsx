@@ -2,8 +2,8 @@ import MyProfilePic from "../components/MyProfilePic"
 
 export default function Présentation() {
     return (
-        <main className="px-6 mx-auto">
-            <div className="mt-5 ml-12 mr-12 text-lg text-left block max-w-m p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <main className="px-6 ml-20 mr-20">
+            <div className="mt-10 text-lg text-left block max-w-m p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div className="flex mt-5">
                     <div className="md:w-2/3 md:order-1 pr-12">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En savoir un petit peu plus sur moi 👋&nbsp;</h5>
