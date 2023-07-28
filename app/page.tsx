@@ -65,16 +65,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="justify-between flex flex-wrap">
+      <div className="justify-between w-full flex flex-wrap">
         <div className="mt-10 text-lg text-left block p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-          <div className="mr-1">
-            <ProjectPosts2 />
-          </div>
+          <ProjectPosts2 />
         </div>
         <div className="mt-10 text-lg text-left block p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-          <div className="mr-1">
-            <Post2 />
-          </div>
+          <Post2 />
         </div>
       </div>
 
