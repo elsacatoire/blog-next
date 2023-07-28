@@ -11,24 +11,19 @@ export default function Contact() {
                 <br />
                 <div className="justify-center flex felx-wrap mt-12 ">
                     <div className="block w-full md:w-1/3 md:order-1 mr-3 max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Technos &#9829;</h5>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; JavaScript/HYML/CSS</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; TypeScript, Next.js</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Python</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; NoSQL avec MongoDB</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; API REST</p>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Coordonnées</h5>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; +336 62 04 88 85</p>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; elsa.catoire@gmail.com</p>
                     </div>
                     <div className="block w-full md:w-1/3 md:order-2 mr-3 max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">J&rsquo;apprends aussi</h5>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Java</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; PHP</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; SQL</p>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Réseaux profesionnels</h5>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; LinkedIn</p>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; GitHub</p>
                     </div>
                     <div className="block w-full md:w-1/3 md:order-3 max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backlog</h5>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Django, FAST API</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Dev mobile</p>
-                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Docker</p>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Autres</h5>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Medium</p>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Instagram</p>
                     </div>
 
                 </div>
