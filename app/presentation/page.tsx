@@ -8,11 +8,6 @@ export default function Présentation() {
                     <div className="md:w-2/3 md:order-1 pr-12">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En savoir un petit peu plus sur moi 👋&nbsp;</h5>
                         <br />
-                        <p className="font-normal text-gray-700 dark:text-gray-400">Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement
-                            web et logiciel chez Ada Tech School à Nantes,
-                            je recherche une alternance d&rsquo;un an à partir d&rsquo;octobre ou de novembre 2023,
-                            pour travailler 4 jours par semaine.</p>
-                        <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400"> Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement
                             web et logiciel chez Ada Tech School à Nantes,
                             je recherche une alternance d&rsquo;un an à partir d&rsquo;octobre ou de novembre 2023,
