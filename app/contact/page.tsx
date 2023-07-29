@@ -22,7 +22,7 @@ export default function Contact() {
                         <Link href="https://www.polarsteps.com/ElsaCatoire">
                             <Image
                                 className="mx-auto mt-0 rounded-lg"
-                                src="/images/polarstep.jpg"
+                                src="/images/chat.jpg"
                                 width={1000}
                                 height={1000}
                                 alt="Elsa Catoire"
@@ -38,32 +38,46 @@ export default function Contact() {
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Coordonnées</h5>
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; +336 62 04 88 85</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; elsa.catoire@gmail.com</p>
-
                         </div>
                     </div>
                     <div className="w-full md:w-1/3 md:order-2 p-3">
                         <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Réseaux profesionnels</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; LinkedIn</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; GitHub</p>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Réseaux pro</h5>
+                            <Link href="https://www.linkedin.com/in/elsa-catoire-11402753/" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
+                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; LinkedIn</p>
+                            </Link>
+                            <Link href="https://github.com/elsacatoire" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
+                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; GitHub</p>
+                            </Link>
                         </div>
                     </div>
 
                     <div className="w-full md:w-1/3 md:order-3 p-3">
                         <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ecrits, voyages</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Medium</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Polarstep</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Instagram</p>
+                            <Link href="https://medium.com/@elsa.catoire" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
+                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Medium</p>
+                            </Link>
+                            <Link href="https://www.polarsteps.com/ElsaCatoire" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
+                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Polarstep</p>
+                            </Link>
+                            <Link href="https://www.instagram.com/elsa_des_bois/" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
+                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Instagram</p>
+                            </Link>
                         </div>
                     </div>
                 </div>
-                <h5 className="mt-10 text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Des feedbacks techniques, typo, design ?
-                </h5>
-                <h5 className="mt-10 text-center mb-2 text-2xl font-bold tracking-tight text-green-700 dark:text-white">
-                    &#x2794; <Link href="https://github.com/elsacatoire/next-portfolio/issues">GitHub Issues</Link>
-                </h5>
+                <section className="text-center">
+                    <h5 className="mt-20 text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        Des feedbacks techniques, typo, design ?
+                    </h5>
+                    <p className="font-normal text-gray-700 dark:text-gray-400">J'ai réalisé ce site pour apprendre</p>
+                    <p className="font-normal text-gray-700 dark:text-gray-400">Il est très certainement imparfait</p>
+                    <p className="font-normal text-gray-700 dark:text-gray-400">Tout retour bienveillant m'aiderait à progresser</p>
+                    <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-green-700 dark:text-white">
+                        &#x2794; <Link href="https://github.com/elsacatoire/next-portfolio/issues">GitHub Issues</Link>
+                    </h5></section>
+
             </div>
         </main>
     )
