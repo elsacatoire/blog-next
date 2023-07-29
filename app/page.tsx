@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="px-6 mb-10 mt-10 mr-20 ml-20">
-      <div className="mt-10 text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+    <main>
+      <div className="text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
           <div className="md:w-2/3 md:order-1 ml-5">
             <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -73,8 +73,6 @@ export default function Home() {
           <Post2 />
         </div>
       </div>
-
-
     </main >
   )
 }

@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Contact() {
     return (
-        <main className="px-6 mb-10 mt-10 mr-20 ml-20">
+        <main>
             <div className="p-20 text-lg text-left block max-w-m text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
                 <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
