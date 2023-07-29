@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Elsa',
+  title: 'Elsa Catoire',
   description: 'writting and projects',
 }
 
@@ -20,7 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-green-900 dark:bg-slate-700 text-gray-200">
         <Navbar />
-        {children}
+        <main className="px-20 py-10 md:px-5 md:py-5 max-w-screen-lg mx-auto">
+          {children}
+        </main>
+
         <Footer />
       </body>
     </html>

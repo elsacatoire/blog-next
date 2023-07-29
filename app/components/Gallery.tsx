@@ -2,7 +2,7 @@ import React from "react";
 
 const images = [
     "/images/hike1.jpg",
-    "/images/chat.jpg",
+    "/images/gustave.jpg",
     "/images/camp.jpg",
     "/images/athenes.jpg",
     "/images/athos.jpg",
