@@ -18,9 +18,9 @@ export default function Contact() {
                             <h5 className="mt-5 text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                                 Des feedbacks techniques, typo, design ?
                             </h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">J'ai réalisé ce site pour apprendre</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">J&apos;ai réalisé ce site pour apprendre</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400">Il est très certainement imparfait</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">Tout retour bienveillant m'aiderait à progresser</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">Tout retour bienveillant m&apos;aiderait à progresser</p>
                             <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-green-700 dark:text-white">
                                 &#x2794; <Link href="https://github.com/elsacatoire/next-portfolio/issues">GitHub Issues</Link>
                             </h5></section>
