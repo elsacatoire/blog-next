@@ -18,7 +18,7 @@ export default function Projects() {
                             <p className="font-normal text-gray-700 dark:text-gray-400">Sur mon temps libre, je profite de repasser sur les technologies qui m&apos;intriguent le plus, ou qui m'amusent (comme coder un Snake avec P5js).</p>
                             <p className="font-normal text-green-700 dark:text-gray-400">
                                 <br />
-                                &#x2794; <Link href="https://github.com/elsacatoire">Pour jeter un oeil à mon travail d'apprenante : GitHub profil</Link>
+                                &#x2794; <Link href="https://github.com/elsacatoire">Pour jeter un oeil à mon travail d&apos;apprenante : GitHub profil</Link>
                             </p>
                             <br /></section>
 
