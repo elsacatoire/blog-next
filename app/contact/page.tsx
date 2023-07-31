@@ -27,7 +27,7 @@ export default function Contact() {
 
                     </div>
 
-                    <div className=" md:w-1/3 md:order-2 rounded-lg center">
+                    <div className="object-center md:w-1/3 md:order-2 rounded-lg center">
                         <Link href="https://www.polarsteps.com/ElsaCatoire">
                             <Image
                                 className="mx-auto mt-0 rounded-lg"

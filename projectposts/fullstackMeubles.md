@@ -1,11 +1,22 @@
 ---
 title: "Antikea - plateforme de vente en ligne full-stack"
-date: "2023-03-14"
+date: "2023-07-14"
 stack: "Stack: React, NodeJS, Express, MongoDB"
 image: "/images/antikea/accueil.jpeg"
 ---
 
-juin 2023. “Antikea” Full Stack
-Création d'une plateforme de vente de meubles d’occasion en ligne. 2 équipes front et back puis échange à mi projet. Mise en place du back première semaine. Reprise du code front en deuxième semaine pour améliorations. 
-Stack: React, NodeJS, Express, MongoDB
-Organisation: 8 pers, 5 jours Mob et pair programming, sous GitHub (branches), Trello, Notion + contexte agile (rétro/démo)
+Sur demande d'un client fictif, création fullstack d'une solution pour lui permettre de mettre en vente en ligne des meubles d'occasion, DIY. 
+
+Première semaine (3,5jours) en équipe BackEnd : 
+Choix de la Stack en équipe, mise en place des outils d'organisation et Architecture. Mise en place du serveur et de la BDD, création de routes API REST (NodeJS, Express, MongoDB). Documentation du projet et des routes API. Premier travail en Back pour moi.
+
+Deuxième semaine (2,5jours) dans l'équipe FrontEnd :
+Priorisation des features pour MPV en équipe. Prise en main de la Stack front REACT (première utilisation), fetch des données API internes, création de quelques composant. 
+
++1/2 journée :r étrospective et démo.
+
+Organisation : Trello, daily, GitHub avec branches/features et PullRequests. Equipe de 8 personnes séparé en deux groupes de 4. Contrainte de l'école : passer une des deux semaine en Back et l'autre n Front.
+
+STACK choisie : 
+Back : NodeJS, Express, MongoDB
+Front : React + bootsrap(imposé)
