@@ -12,7 +12,7 @@ export default function PostsPage() {
                         </h5>
                         <br />
                         <section className="text-left">
-                            <p className="font-normal text-base text-gray-700 dark:text-gray-400">Dans mes petites passions il y a la lecture et l&apos;écriture.  "Verba volant, scripta manent". "Les paroles s&apos;envolent, les écrits restent", sensible à la formalisation écrite des chemins de pensées, au travail comme en dehors, l&apos;écrit a une importance particulière pour moi. Mes écrits, très personnels et fixés dans leur contexte, reflètent mes réflexions et humeurs du moment.</p>
+                            <p className="font-normal text-base text-gray-700 dark:text-gray-400">Dans mes petites passions il y a la lecture et l&apos;écriture.  &ldquo;Verba volant, scripta manent&ldquo;. &ldquo;Les paroles s&apos;envolent, les écrits restent&ldquo;, sensible à la formalisation écrite des chemins de pensées, au travail comme en dehors, l&apos;écrit a une importance particulière pour moi. Mes écrits, très personnels et fixés dans leur contexte, reflètent mes réflexions et humeurs du moment.</p>
                             <p className="font-normal text-green-700 dark:text-gray-400">
                                 <br />
                             </p>
