@@ -5,7 +5,7 @@ export default function Présentation() {
         <main >
             <div className="text-base text-left block max-w-m p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div className="flex flex-wrap mt-5">
-                    <div className="md:w-2/3 md:order-1 pr-12">
+                    <div className="md:w-2/3 md:order-1 md:pr-8 m-auto">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En savoir un petit peu plus sur moi 👋&nbsp;</h5>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400"> Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement

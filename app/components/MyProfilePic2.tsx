@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function MyProfilePic2() {
     return (
-        <section className="w-full mx-auto border border-gray-200 rounded-lg shadow">
+        <section className="w-full mx-autorounded-lg shadow">
             <Image
                 className="drop-shadow-xl
                   shadow-black mx-auto mt-8 rounded-lg"
