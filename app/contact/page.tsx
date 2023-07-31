@@ -6,7 +6,7 @@ export default function Contact() {
         <main>
             <div className="text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
-                    <div className="md:w-2/3 md:order-1 ml-5">
+                    <div className="md:w-2/3 md:order-2 ml-5">
                         <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Curieuse et ouverte la conversation, n&rsquo;hésitez pas à me contacter
                         </h5>
@@ -27,7 +27,7 @@ export default function Contact() {
 
                     </div>
 
-                    <div className="object-center md:w-1/3 md:order-2 rounded-lg center">
+                    <div className="object-center md:w-1/3 md:order-1 rounded-lg center">
                         <Link href="https://www.polarsteps.com/ElsaCatoire">
                             <Image
                                 className="mx-auto mt-0 rounded-lg"
