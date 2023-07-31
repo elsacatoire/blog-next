@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+      <div className="text-left block md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
           <div className="md:w-2/3 md:order-1 ml-5">
             <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -30,14 +30,14 @@ export default function Home() {
             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Secteur : Bordeaux, Nantes ou Toulouse</p>
           </div>
 
-          <div className="md:w-1/3 md:order-2 rounded-lg center">
+          <div className="md:w-1/3 md:order-2 rounded-lg center m-auto">
             <MyProfilePic2 />
           </div>
 
         </div>
         <div className="justify-center flex flex-wrap mt-12">
           <div className="w-full md:w-1/3 md:order-1 p-3">
-            <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Technos &#9829;</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; JavaScript, HYML, CSS</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; TypeScript, Next.js</p>
@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full md:w-1/3 md:order-2 p-3">
-            <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">J&rsquo;apprends aussi</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Java</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; PHP</p>
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="w-full md:w-1/3 md:order-3 p-3">
-            <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backlog</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Django, FAST API</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Dev mobile</p>
@@ -65,12 +65,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="justify-between w-full flex flex-wrap">
-        <div className="mt-10 text-lg text-left block p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-          <ProjectPosts2 />
+      <div className="w-full flex flex-wrap mt-10 justify-center">
+        <div className="w-full md:w-1/2 md:pr-2 mb-4 md:mb-0">
+          <div className="text-lg text-left p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 h-full flex flex-col">
+            <ProjectPosts2 />
+          </div>
         </div>
-        <div className="mt-10 text-lg text-left block p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-          <Post2 />
+        <div className="w-full md:w-1/2 md:pl-2">
+          <div className="text-lg text-left p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 h-full flex flex-col">
+            <Post2 />
+          </div>
         </div>
       </div>
     </main >
