@@ -6,21 +6,18 @@ import Image from "next/image";
 export default function Voyages() {
     return (
         <main>
-            <div className="text-lg text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="text-base text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
-                    <div className="md:w-1/3 md:order-1 ml-5">
+                    <div className="md:mt-5 md:w-1/3 md:order-1 ml-5">
                         <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Pérégrinations
                         </h5>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             Environ 2 ans de voayges et bénévolats sur les routes d&rsquo;Europe. Du Portugual à la Turquien en passant par l&rsquo;Albanie et enrentrant par la Slovaquie... Un voyage immerdif, en solo, auonome et libre.
-
                         </p>
                         <br />
-
                     </div>
-
                     <div className="md:w-2/3 md:order-2 rounded-lg center">
                         <Link href="https://www.polarsteps.com/ElsaCatoire">
                             <Image

@@ -3,7 +3,7 @@ import MyProfilePic from "../components/MyProfilePic"
 export default function Présentation() {
     return (
         <main >
-            <div className="text-lg text-left block max-w-m p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="text-base text-left block max-w-m p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div className="flex flex-wrap mt-5">
                     <div className="md:w-2/3 md:order-1 pr-12">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">En savoir un petit peu plus sur moi 👋&nbsp;</h5>
