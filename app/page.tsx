@@ -20,14 +20,21 @@ export default function Home() {
               Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement web et logiciel chez
               <span className="text-green-700 font-semibold">
                 <Link href="https://adatechschool.fr/"> Ada Tech School</Link></span> à Nantes.</p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 6/9 mois réalisés !</p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 7/9 mois réalisés !</p>
             <br />
-            <h5 className="mt-10 text-center text-2xl tracking-tight text-green-700 dark:text-white">Je recherche une <span className="font-bold">alternance en contrat pro</span></h5>
+            <div>
+              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;les projets :</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Aletrnance developpeuse full stack d&rsquo;un an à Nantes. Début octobre 2023 !</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev perso : site de révision notions tech, type flashcards</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Préparation de la certification <span className="text-green-700"> <Link href="https://www.francecompetences.fr/recherche/rncp/35653/">Concepteur développeur d&rsquo;application web</Link> RNCP 6 (BAc+3)</span></p>
+            </div>
+
+            {/* <h5 className="mt-10 text-center text-2xl tracking-tight text-green-700 dark:text-white">Je recherche une <span className="font-bold">alternance en contrat pro</span></h5>
             <br />
             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Durée : 12 mois</p>
             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Début : octobre/novembre 2023</p>
             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Rythme : 4 jours par semaine en entreprise</p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Secteur : Bordeaux, Nantes ou Toulouse</p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Secteur : Bordeaux, Nantes ou Toulouse</p> */}
           </div>
 
           <div className="md:w-1/3 md:order-2 rounded-lg center m-auto">
