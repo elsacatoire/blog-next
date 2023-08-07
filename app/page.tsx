@@ -23,10 +23,15 @@ export default function Home() {
             <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 7/9 mois réalisés !</p>
             <br />
             <div>
-              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;les projets :</p>
+              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;les projets</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Aletrnance developpeuse full stack d&rsquo;un an à Nantes. Début octobre 2023 !</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev perso : site de révision notions tech, type flashcards</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Préparation de la certification <span className="text-green-700"> <Link href="https://www.francecompetences.fr/recherche/rncp/35653/">Concepteur développeur d&rsquo;application web</Link> RNCP 6 (BAc+3)</span></p>
+            </div>
+            <div>
+              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#x1F49C; Télécharger mon CV</p>
+              <Link href="https://drive.google.com/file/d/1AhLRbQcMAndloqCun5pMDTTCte_fAlcM/view?usp=drive_link"><p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Version française</p></Link>
+              <Link href="https://drive.google.com/file/d/1uh-C1mp-7bGBXiuJBzGnv7hlpCzODDpg/view?usp=drive_link"><p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; English version</p></Link>
             </div>
 
             {/* <h5 className="mt-10 text-center text-2xl tracking-tight text-green-700 dark:text-white">Je recherche une <span className="font-bold">alternance en contrat pro</span></h5>

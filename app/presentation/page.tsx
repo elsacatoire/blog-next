@@ -10,12 +10,12 @@ export default function Présentation() {
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400"> Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement
                             web et logiciel chez Ada Tech School à Nantes,
-                            je recherche une alternance d&rsquo;un an à partir d&rsquo;octobre ou de novembre 2023,
-                            pour travailler 4 jours par semaine.</p>
+                            {/* je recherche une alternance d&rsquo;un an à partir d&rsquo;octobre ou de novembre 2023,
+                            pour travailler 4 jours par semaine. */}</p>
                         <br />
-                        <p className="font-normal text-gray-700 dark:text-gray-400">En alternance, j&rsquo;ai hâte de travailler sur des projets concrets et de rencontrer
-                            des personnes inspirantes auprès desquelles je pourrais apprendre et grandir.
-                            Participer à la vie d&rsquo;une organisation est quelque chose que j&rsquo;ai toujours apprécié, et c&rsquo;est avec plaisir que j&rsquo;intégrerais vos équipes.</p>
+                        <p className="font-normal text-gray-700 dark:text-gray-400">Je commence une alternance fin cotobre 2023 et j&rsquo;ai hâte de travailler sur des projets concrets et de rencontrer
+                            des personnes inspirantes auprès desquelles je pourrais apprendre et progresser.
+                        </p>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">Dans mon précédent métier en tant que manager de projets et établissements culturels dans le secteur public, j&rsquo;ai acquis une précieuse expérience dans la prise de responsabilités de manière indépendante. De plus, mes expériences de voyages en solo ont renforcé ma capacité à être fiable et autonome, des qualités que je considère comme essentielles dans n&rsquo;importe quel environnement de travail, même en dehors du cadre technique.</p>
                         <br />
@@ -23,10 +23,9 @@ export default function Présentation() {
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">Dans le code ce qui me plait le plus : La résolution de problèmes.
                             J&rsquo;ai commencé à apprendre le développement web avec JavaScript et à travailler sur des algorithmes avec Python.
-                            Ma formation de développeuse full-stack m&rsquo;a amenée à travailler sur des projets en groupe et en solo, couvrant diverses technologies comme indiqué dans mon CV.
+                            Ma formation de développeuse full-stack m&rsquo;a amenée à travailler sur des projets en groupe et en solo, couvrant diverses technologies.
                             Ma passion pour ce métier de développeuse réside dans l&rsquo;apprentissage continu.
-                            Apprendre quoi ?
-                            Tout !
+                            <p>Apprendre quoi ?</p> Tout !
                             L&rsquo;intérêt c&rsquo;est le produit. Ce qu&rsquo;il me permet de travailler et ce qu&rsquo;il apporte à mes contemporains
                             Ce qui compte le plus pour moi, c&rsquo;est l&rsquo;impact final du produit.
                             Je suis prête à apprendre n&rsquo;importe quelle technologie pour un projet qui m&rsquo;enthousiasme et qui correspond à mes valeurs.</p>

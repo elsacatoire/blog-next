@@ -14,7 +14,7 @@ export default function Voyages() {
                         </h5>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Environ 2 ans de voayges et bénévolats sur les routes d&rsquo;Europe. Du Portugual à la Turquien en passant par l&rsquo;Albanie et enrentrant par la Slovaquie... Un voyage immerdif, en solo, auonome et libre.
+                            Environ 2 ans de voyages et bénévolats sur les routes d&rsquo;Europe. Du Portugual à la Turquie en passant par l&rsquo;Albanie et en rentrant par la Slovaquie... Un voyage immersif, en solo, autonome et libre.
                         </p>
                         <br />
                     </div>
