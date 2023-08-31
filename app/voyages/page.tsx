@@ -13,8 +13,11 @@ export default function Voyages() {
                             Pérégrinations
                         </h5>
                         <br />
+                        <p className="text-center font-semibold text-gray-700 dark:text-gray-400">
+                            [Octobre 2020 - Janvier 2023]
+                        </p>
                         <p className="font-normal text-gray-700 dark:text-gray-400">
-                            Environ 2 ans de voyages et bénévolats sur les routes d&rsquo;Europe. Du Portugual à la Turquie en passant par l&rsquo;Albanie et en rentrant par la Slovaquie... Un voyage immersif, en solo, autonome et libre.
+                            Plus de 2 ans de voyages et bénévolats sur les routes d&rsquo;Europe. Du Portugual à la Turquie en passant par l&rsquo;Albanie et en rentrant par la Slovaquie... Un voyage immersif, en solo, autonome et libre.
                         </p>
                         <br />
                     </div>
@@ -41,6 +44,7 @@ export default function Voyages() {
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; 9 woofings</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Pair & mob voyages</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Création et alimentation de communautés de voyageurs libres</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Beaucoup de riens</p>
 
                         </div>
                     </div>
@@ -50,8 +54,11 @@ export default function Voyages() {
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Renault Trafic L1L2</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Batterie Lithium 100A</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; 60L eau propre</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; douche solaire</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; pelle</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Douche solaire</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Pelle</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Reine du gaffeur</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Park4Night</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Chaussettes pilou</p>
                         </div>
                     </div>
 
