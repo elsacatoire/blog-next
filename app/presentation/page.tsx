@@ -26,7 +26,7 @@ export default function Présentation() {
                             Ma passion pour ce métier de développeuse réside dans l&rsquo;apprentissage continu.
                             <p>Apprendre quoi ?</p>
                             <p>Tout !</p>
-                            L&rsquo;intérêt c&rsquo;est le produit, ce qu&rsquo;il me permet d'apprendre et ce qu&rsquo;il apporte à mes contemporains.
+                            L&rsquo;intérêt c&rsquo;est le produit, ce qu&rsquo;il me permet d&rsquo;apprendre et ce qu&rsquo;il apporte à mes contemporains.
                             Le plus important pour moi, c&rsquo;est l&rsquo;impact final du produit.
                             Je suis prête à apprendre n&rsquo;importe quelle technologie pour un projet qui m&rsquo;enthousiasme et qui correspond à mes valeurs.</p>
 
