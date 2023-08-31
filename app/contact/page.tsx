@@ -7,9 +7,12 @@ export default function Contact() {
             <div className="text-base text-left block md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
                     <div className="md:w-2/3 md:order-2 m-1 md:ml-5">
-                        <h5 className="text-center md:mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5 className="text-center md:px-10 md:mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                             Curieuse et ouverte la conversation, n&rsquo;hésitez pas à me contacter
                         </h5>
+                        <h3 className="text-center text-green-700 md:px-20 md:mb-2 md:text-3l tracking-tight dark:text-white">
+                            *Elsa is also aviable in English, use to live and work abroad. So let&rsquo;s talk about your projetcts !
+                        </h3>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                         </p>
