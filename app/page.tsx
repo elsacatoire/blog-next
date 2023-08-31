@@ -10,7 +10,7 @@ export default function Home() {
       <div className="text-left block pr-3 md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
         <div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
           <div className="md:w-2/3 md:order-1 ml-5">
-            <h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="text-center mb-2 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Bonjour et bienvenue 👋&nbsp;
               <span className="whitespace-nowrap">
                 Hi I&apos;m <span className="font-bold">Elsa</span>
@@ -20,17 +20,18 @@ export default function Home() {
               Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement web et logiciel chez
               <span className="text-green-700 font-semibold">
                 <Link href="https://adatechschool.fr/"> Ada Tech School</Link></span> à Nantes.</p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 7/9 mois réalisés !</p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 8/9 mois réalisés !</p>
             <br />
             <div>
-              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;les projets</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Aletrnance developpeuse full stack d&rsquo;un an à Nantes. Début octobre 2023 !</p>
+              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;En projets</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Alternance developpeuse full stack d&rsquo;un an à Nantes à partir d&rsquo;octobre 2023 !</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev perso : site de révision notions tech, type flashcards</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Préparation de la certification <span className="text-green-700"> <Link href="https://www.francecompetences.fr/recherche/rncp/35653/">Concepteur développeur d&rsquo;application web</Link> RNCP 6 (BAc+3)</span></p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev mobile pro : app spot de surf</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Préparation de la certification <span className="text-green-700"> <Link href="https://www.francecompetences.fr/recherche/rncp/35653/">Conceptrice développeuse d&rsquo;application web</Link> RNCP 6 (BAc+3)</span></p>
             </div>
             <br />
             <div>
-              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#x1F49C; Télécharger mon CV</p>
+              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#x1F49C;Télécharger mon CV</p>
               <Link href="https://drive.google.com/file/d/1AhLRbQcMAndloqCun5pMDTTCte_fAlcM/view?usp=drive_link"><p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; <span className="underline">Version française</span></p></Link>
               <Link href="https://drive.google.com/file/d/1uh-C1mp-7bGBXiuJBzGnv7hlpCzODDpg/view?usp=drive_link"><p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; <span className="underline">English version</span></p></Link>
             </div>
@@ -72,7 +73,8 @@ export default function Home() {
             <div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backlog</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Django, FAST API</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Dev mobile</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; React nativ</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Angular</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Docker</p>
             </div>
           </div>
