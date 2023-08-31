@@ -14,7 +14,7 @@ export default function Projects() {
                         </h5>
                         <br />
                         <section className="text-left">
-                            <p className="font-normal text-gray-700 dark:text-gray-400">J&apos;apprends à coder tous les jours par une pratique constante du code en école et sur mon temps libre. En école, encadrés par des dévs professionnels nous apprenons en itérations de deux semaines : notions plus théoriques et travail de groupe. Nous sommes incités à apprendre ensemble dans un esprit sain, favorisant l&apos;entraide et la transmission plutôt que la compétition.</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">J&apos;apprends à coder tous les jours par une pratique constante en école et sur mon temps libre. Chez Ada, encadré.e.s par des dévs professionnels nous apprenons en itérations de deux semaines : notions plus théoriques et travail de groupe. Nous sommes incités à apprendre ensemble dans un esprit sain, favorisant l&apos;entraide et la transmission plutôt que la compétition.</p>
                             <p className="font-normal text-gray-700 dark:text-gray-400">Sur mon temps libre, je profite de repasser sur les technologies qui m&apos;intriguent le plus, ou qui m&apos;amusent (comme coder un Snake avec P5js).</p>
                             <p className="font-normal text-green-700 dark:text-gray-400">
                                 <br />

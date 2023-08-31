@@ -12,7 +12,7 @@ export default function ListItemProject({ post }: Props) {
 
     return (
 
-        <Link className="mt-5 mx-auto w-full flex flex-col items-center rounded-lg bg-gray-300 border border-green-700 shadow md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700" href={`/projets/${id}`}>
+        <Link className="mt-5 mx-auto w-full flex flex-col items-center rounded-lg bg-gray-300 border shadow md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700" href={`/projets/${id}`}>
             <Image className="imgProject rounded-l" src={image} alt="" width={192} height={192} />
             <div className="flex flex-col justify-between p-4 leading-normal">
                 <h5 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
