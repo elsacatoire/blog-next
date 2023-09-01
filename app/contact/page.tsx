@@ -11,7 +11,7 @@ export default function Contact() {
                             Curieuse et ouverte la conversation, n&rsquo;hésitez pas à me contacter
                         </h5>
                         <h3 className="text-center text-green-700 md:px-20 md:mb-2 md:text-3l tracking-tight dark:text-white">
-                            *Elsa is also aviable in English, use to live and work abroad. So let&rsquo;s talk about your projetcts !
+                            *Elsa is also available in English, use to live and work abroad. So let&rsquo;s talk about your projetcts !
                         </h3>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">
