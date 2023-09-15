@@ -21,9 +21,18 @@ export default function Home() {
               <span className="text-green-700 font-semibold">
                 <Link href="https://adatechschool.fr/"> Ada Tech School</Link></span> à Nantes.</p>
             <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 8/9 mois réalisés !</p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              Alternance chez
+              <Link
+                className="text-green-700 font-semibold"
+                href="https://www.apside.com/vie-apsidienne/apside-nantes/" >
+                Apside Nantes
+              </Link>
+              du 23/10/23 au 29/11/24, 4 jours par semaine.
+            </p>
             <br />
             <div>
-              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;En projets</p>
+              <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;En projet</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Alternance developpeuse full stack d&rsquo;un an à Nantes à partir d&rsquo;octobre 2023 !</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev perso : site de révision notions tech, type flashcards</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev mobile pro : app spot de surf</p>
@@ -54,7 +63,7 @@ export default function Home() {
             <div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Technos &#9829;</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; JavaScript, HYML, CSS</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; TypeScript, Next.js</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; TypeScript, Next.js, React</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Python</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; NoSQL avec MongoDB</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; API REST</p>
