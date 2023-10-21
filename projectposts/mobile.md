@@ -2,7 +2,7 @@
 title: "App mobile SurfingAway Full Stack"
 date: "2023-09-20"
 stack: "Stack : React Nativ, Expo, Node/Express, MongoDB"
-image: "/images/mobile/form.png"
+image: "/images/mobile/detail.jpg"
 ---
 
 sepetmbre 2023. “Surfing Away” - 14 jours - 4 personnes
