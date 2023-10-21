@@ -1,6 +1,6 @@
 # Mon portfolio - Welcome to my portfolio !
 
-Bienvenue sur mon portfolio en ligne ! Je suis Elsa, une développeuse web en apprentissage qui a à coeur de développer des applications qui facilitent la vie de mes contemporains. Ce portfolio est conçu pour présenter mon travail, mes projets, mes articles de blog et mes voyages.
+Bienvenue sur mon portfolio en ligne ! Je suis Elsa, développeuse en apprentissage avec à coeur l'envie de développer des applications qui facilitent la vie de mes contemporains. Ce portfolio est conçu pour présenter mon travail, mes projets, mes articles de blog et mes voyages. Mais c'était aussi un projet me premettant d'apprendre à coder avec Next.js
 - GitHub :  https://github.com/elsacatoire
 - LinkedIn : https://www.linkedin.com/in/elsa-catoire-11402753/
 

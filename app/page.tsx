@@ -20,23 +20,18 @@ export default function Home() {
               Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement web et logiciel chez
               <span className="text-green-700 font-semibold">
                 <Link href="https://adatechschool.fr/"> Ada Tech School</Link></span> à Nantes.</p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 8/9 mois réalisés !</p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 9/21 mois réalisés !</p>
+            <br />
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Alternance chez
-              <Link
-                className="text-green-700 font-semibold"
-                href="https://www.apside.com/vie-apsidienne/apside-nantes/" >
-                Apside Nantes
-              </Link>
-              du 23/10/23 au 29/11/24, 4 jours par semaine.
+              Contrat de professionnalisation chez <span className="text-green-700 font-semibold">Apside Nantes</span> du 23/10/23 au 29/11/24, 4 jours par semaine.
             </p>
             <br />
             <div>
               <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;En projet</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Alternance developpeuse full stack d&rsquo;un an à Nantes à partir d&rsquo;octobre 2023 !</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev perso : site de révision notions tech, type flashcards</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev mobile pro : app spot de surf</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Préparation de la certification <span className="text-green-700"> <Link href="https://www.francecompetences.fr/recherche/rncp/35653/">Conceptrice développeuse d&rsquo;application web</Link> RNCP 6 (BAc+3)</span></p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet pro : client SNCF Connect</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Préparation de la certification <span className="text-green-700"> <Link href="https://www.francecompetences.fr/recherche/rncp/35653/">Conceptrice développeuse d&rsquo;application web</Link> RNCP 6 (BAc+3)</span> en 2024</p>
             </div>
             <br />
             <div>

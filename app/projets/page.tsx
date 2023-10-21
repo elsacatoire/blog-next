@@ -24,7 +24,7 @@ export default function Projects() {
 
                         <div className="h-full max-w-m p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Dans les tuyaux</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev mobile pro : app spot de surf (React native, API REST, GO) - 5 personnes, 14 jours</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Travailler avec une API d&apos;IA</p>
                             <br />
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; site de révision/flash cards sur des notions techs et dévleoppement (perso)</p>
                         </div>
