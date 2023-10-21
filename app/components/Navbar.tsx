@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Navbar() {
     return (
 
-        <nav className="bg-gray-200 border-gray-200 dark:bg-gray-900 md:p-4 sticky top-0 drop-shadow-xl z-10">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2 md:p-4">
+        <nav className="bg-gray-200 border-gray-200 dark:bg-gray-900 md:p-2 sticky top-0 drop-shadow-xl z-10">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-4">
                 <Link href="/" className="flex items-center">
                     <Image src="/images/logo.png" className="h-8 w-8 mr-5 md:h-12 md:w-12 md:mr-8" alt="Flowbite Logo" width={100} height={100} />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-700 dark:text-white">Elsa Catoire</span>

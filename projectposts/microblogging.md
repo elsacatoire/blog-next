@@ -7,7 +7,7 @@ image: "/images/microblogging/chirp-editted-blade.png"
 
 aout 2023. “Do it Together” - 9 jours - 3 personnes
 Création d’une plateforme de microblogging
-Stack: Stack : Docker, Laravel, Blade, Breeze, PHPUnit
+Stack: Docker, Laravel, Blade, Breeze, PHPUnit
 Organisation: 3 pers, 7 jours, découpé en tâches individuelles et pair programming, sous GitHub avec PR + rétro/démo
 
 FICHE PROJET
@@ -15,11 +15,6 @@ Le projet consistait à développer une plateforme de *micro-blogging* de phot
 - créer des posts associant une image et un texte,
 - les retrouver regroupés au sein d’une page personnelle,
 - voir les posts des autres membres.
-
-Avec:
-- d’une page de connexion,
-- d’une page de profil éditable.Stack: PHP, CSS, HTML, MySQL, Apache.
-Organisation: 4 pers, 4 jours, mob programming puis taches individuelles, sous GitHub et Trello + contexte agile (rétro/démo)
 
 ## **Notions abordées**
 - Daily meeting
