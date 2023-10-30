@@ -60,6 +60,7 @@ export default function Home() {
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; JavaScript, HYML, CSS</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; TypeScript, Next.js, React</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Python</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; React nativ</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; NoSQL avec MongoDB</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; API REST</p>
             </div>
@@ -77,9 +78,9 @@ export default function Home() {
             <div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backlog</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Django, FAST API</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; React nativ</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Angular</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Docker</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Vue, Nuxt</p>
             </div>
           </div>
         </div>
