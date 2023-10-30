@@ -23,7 +23,7 @@ export default function Home() {
             <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 9/21 mois réalisés !</p>
             <br />
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Contrat de professionnalisation chez <span className="text-green-700 font-semibold">Apside Nantes</span> du 23/10/23 au 29/11/24, 4 jours par semaine.
+              En contrat de professionnalisation chez <span className="text-green-700 font-semibold">Apside Nantes</span> jusqu&rsquo;au 29/11/24, 4 jours par semaine et le vendredi à l&rsquo;école.
             </p>
             <br />
             <div>
