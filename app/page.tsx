@@ -1,4 +1,4 @@
-import MyProfilePic2 from "./components/MyProfilePic2";
+import MyProfilePic from "./components/MyProfilePic";
 import Post2 from "./components/Posts2";
 import ProjectPosts2 from "./components/ProjectPosts2";
 import Link from "next/link";
@@ -17,20 +17,19 @@ export default function Home() {
               </span></h5>
             <br />
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement web et logiciel chez
+              Je m&rsquo;appelle Elsa, j&rsquo;ai 34 ans, et je suis étudiante en développement chez
               <span className="text-green-700 font-semibold">
                 <Link href="https://adatechschool.fr/"> Ada Tech School</Link></span> à Nantes.</p>
             <p className="font-normal text-gray-700 dark:text-gray-400">Learning in progress... 9/21 mois réalisés !</p>
             <br />
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              En contrat de professionnalisation chez <span className="text-green-700 font-semibold">Apside Nantes</span> jusqu&rsquo;au 29/11/24, 4 jours par semaine et le vendredi à l&rsquo;école.
+              En contrat de professionnalisation chez <span className="text-green-700 font-semibold">Apside Nantes</span> jusqu&rsquo;à novembre 2023, 4 jours par semaine et le vendredi à l&rsquo;école.
             </p>
             <br />
             <div>
               <p className="text-xl font-semibold text-green-700 dark:text-gray-400">&#128640;En projet</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Alternance developpeuse full stack d&rsquo;un an à Nantes à partir d&rsquo;octobre 2023 !</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev perso : site de révision notions tech, type flashcards</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet pro : client SNCF Connect</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Projet dev perso : site de révision notions tech, type flashcards</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Préparation de la certification <span className="text-green-700"> <Link href="https://www.francecompetences.fr/recherche/rncp/35653/">Conceptrice développeuse d&rsquo;application web</Link> RNCP 6 (BAc+3)</span> en 2024</p>
             </div>
             <br />
@@ -49,7 +48,11 @@ export default function Home() {
           </div>
 
           <div className="md:w-1/3 md:order-2 rounded-lg center m-auto">
-            <MyProfilePic2 />
+            <MyProfilePic src="/images/profileD.jpg"
+                width={300}
+                height={300}
+                alt="Elsa Catoire"
+                priority={true} />
           </div>
 
         </div>
@@ -60,6 +63,7 @@ export default function Home() {
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; JavaScript, HYML, CSS</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; TypeScript, Next.js, React</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Python</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; React nativ</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; NoSQL avec MongoDB</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; API REST</p>
             </div>
@@ -77,9 +81,9 @@ export default function Home() {
             <div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Backlog</h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Django, FAST API</p>
-              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; React nativ</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Angular</p>
               <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Docker</p>
+              <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Vue, Nuxt</p>
             </div>
           </div>
         </div>
