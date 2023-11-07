@@ -38,13 +38,6 @@ export default function Home() {
               <Link href="https://drive.google.com/file/d/1AhLRbQcMAndloqCun5pMDTTCte_fAlcM/view?usp=drive_link"><p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; <span className="underline">Version française</span></p></Link>
               <Link href="https://drive.google.com/file/d/1uh-C1mp-7bGBXiuJBzGnv7hlpCzODDpg/view?usp=drive_link"><p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; <span className="underline">English version</span></p></Link>
             </div>
-
-            {/* <h5 className="mt-10 text-center text-2xl tracking-tight text-green-700 dark:text-white">Je recherche une <span className="font-bold">alternance en contrat pro</span></h5>
-            <br />
-            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Durée : 12 mois</p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Début : octobre/novembre 2023</p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Rythme : 4 jours par semaine en entreprise</p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Secteur : Bordeaux, Nantes ou Toulouse</p> */}
           </div>
 
           <div className="md:w-1/3 md:order-2 rounded-lg center m-auto">
