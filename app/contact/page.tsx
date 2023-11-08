@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import TextBoxEmphase from "../components/TextBoxEmphase"
 
 export default function Contact() {
     return (
@@ -44,42 +45,29 @@ export default function Contact() {
                 </div>
 
                 <div className="justify-center flex flex-wrap mt-5">
-                    <div className="w-full md:w-1/3 md:order-1 p-3">
-                        <div className="h-full max-w-sm p-6 mx-auto  bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Coordonnées</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; +336 62 04 88 85</p>
-                            <br />
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; elsa.catoire @gmail.com</p>
-                        </div>
-                    </div>
-                    <div className="w-full md:w-1/3 md:order-2 p-3">
-                        <div className="h-full max-w-sm p-6 mx-auto  bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Réseaux pro</h5>
-                            <Link href="https://www.linkedin.com/in/elsa-catoire-11402753/" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
-                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; LinkedIn</p>
-                            </Link>
-                            <Link href="https://github.com/elsacatoire" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
-                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; GitHub</p>
-                            </Link>
-                        </div>
-                    </div>
-
-                    <div className="w-full md:w-1/3 md:order-3 p-3">
-                        <div className="h-full max-w-sm p-6 mx-auto bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ecrits, voyages</h5>
-                            <Link href="https://medium.com/@elsa.catoire" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
-                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Medium</p>
-                            </Link>
-                            <Link href="https://www.polarsteps.com/ElsaCatoire" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
-                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Polarstep</p>
-                            </Link>
-                            <Link href="https://www.instagram.com/elsa_des_bois/" className="mr-5 hover:underline md:mr-10" target="_blank" rel="noopener noreferrer">
-                                <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Instagram</p>
-                            </Link>
-                        </div>
-                    </div>
+                    <TextBoxEmphase
+                        title="Coordonnées"
+                        items={["+336 62 04 88 85", "elsa.catoire@gmail.com"]}
+                        style="w-full md:w-1/3 md:order-1 p-3"
+                    />
+                    <TextBoxEmphase
+                        title="Réseaux pro"
+                        items={[
+                            { text: "LinkedIn", href: "https://www.linkedin.com/in/elsa-catoire-11402753/" },
+                            { text: "GitHub", href: "https://github.com/elsacatoire" },
+                        ]}
+                        style="w-full md:w-1/3 md:order-2 p-3"
+                    />
+                    <TextBoxEmphase
+                        title="Ecrits, voyages"
+                        items={[
+                            { text: "Medium", href: "https://medium.com/@elsa.catoire" },
+                            { text: "Polarstep", href: "https://www.polarsteps.com/ElsaCatoire" },
+                            { text: "Instagram", href: "https://www.instagram.com/elsa_des_bois/" },
+                        ]}
+                        style="w-full md:w-1/3 md:order-3 p-3"
+                    />
                 </div>
-
             </div>
         </main>
     )

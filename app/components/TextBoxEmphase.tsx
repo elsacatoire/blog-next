@@ -1,10 +1,16 @@
+import Link from "next/link";
 import React from "react";
-
+type LinkItem = {
+    text: string;
+    href: string;
+};
 type TextBoxProps = {
     title: string;
-    items: string[];
+    items: (string | LinkItem)[];
     style: string;
 };
+
+
 
 const TextBoxEmphase = ({ title, items, style }: TextBoxProps) => {
     return (
@@ -13,7 +19,15 @@ const TextBoxEmphase = ({ title, items, style }: TextBoxProps) => {
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
                 {items.map((item, index) => (
                     <p key={index} className="font-normal text-gray-700 dark:text-gray-400">
-                        {item}
+                        {typeof item === 'string' ? (
+                            item
+                        ) : (
+                            <div className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600">
+                                <Link href={item.href} target="_blank" rel="noopener noreferrer">
+                                    {item.text}
+                                </Link>
+                            </div>
+                        )}
                     </p>
                 ))}
             </div>
