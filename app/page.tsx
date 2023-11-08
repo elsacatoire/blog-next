@@ -4,23 +4,25 @@ import ProjectPosts2 from "./components/ProjectPosts2";
 import Link from "next/link";
 import TextBoxEmphase from "./components/TextBoxEmphase";
 
-
 export default function Home() {
 
-  //textBoxData
-
+  // Text data for the different parts of the page, in order to use components
   const textBoxData: { title: string; items: string[] }[] = [
     {
       title: 'Technos ♥️',
-      items: ['JavaScript, HTML, CSS', 'TypeScript, Next.js, React', 'Python', 'React Native', 'NoSQL avec MongoDB', 'API REST'],
+      items: ['• JavaScript, HTML, CSS',
+        '• TypeScript, Next.js, React',
+        '• Python', '• React Native',
+        '• NoSQL avec MongoDB',
+        '• API REST'],
     },
     {
       title: "J'apprends aussi",
-      items: ['Java', 'PHP', 'SQL'],
+      items: ['• Java', '• PHP', '• SQL'],
     },
     {
       title: 'Backlog',
-      items: ['Django, FAST API', 'Angular', 'Docker', 'Vue, Nuxt'],
+      items: ['• Django, FAST API', '• Angular', '• Docker', '• Vue, Nuxt'],
     },
   ];
 
@@ -71,7 +73,7 @@ export default function Home() {
 
         <div className="justify-center flex flex-wrap mt-12">
           {textBoxData.map((tech, index) => (
-            <TextBoxEmphase key={index} title={tech.title} items={tech.items} />
+            <TextBoxEmphase key={index} title={tech.title} items={tech.items} style={"w-full md:w-1/3 md:order-1 p-3"} />
           ))}
         </div>
       </div>
