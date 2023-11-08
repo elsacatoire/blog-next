@@ -21,14 +21,12 @@ export default function Projects() {
                                 &#x2794; <Link href="https://github.com/elsacatoire">Pour jeter un oeil à mon travail d&apos;apprenante : GitHub profil</Link>
                             </p>
                             <br /></section>
-
                         <div className="h-full max-w-m p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Dans les tuyaux</h5>
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Travailler avec une API d&apos;IA</p>
                             <br />
                             <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; site de révision/flash cards sur des notions techs et dévleoppement (perso)</p>
                         </div>
-
                     </div>
 
                     <div className="object-center md:w-1/3 md:order-2 rounded-lg center m-auto">
@@ -46,8 +44,6 @@ export default function Projects() {
                 <div className="justify-center flex flex-wrap mt-5">
                     <ProjectPosts />
                 </div>
-
-
             </div>
         </main>
     )

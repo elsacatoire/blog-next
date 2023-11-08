@@ -1,10 +1,8 @@
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function Navbar() {
     return (
-
         <nav className="bg-gray-200 border-gray-200 dark:bg-gray-900 md:p-2 sticky top-0 drop-shadow-xl z-10">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto md:p-4">
                 <Link href="/" className="flex items-center">
@@ -36,7 +34,5 @@ export default function Navbar() {
                 </div>
             </div>
         </nav>
-
-
     )
 }

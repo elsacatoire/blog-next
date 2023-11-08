@@ -9,7 +9,6 @@ const images = [
     "/images/hike2.jpg",
     "/images/carvan.jpg",
     "/images/greece.jpg",
-    // Add more image URLs here
 ];
 
 const Gallery = () => {

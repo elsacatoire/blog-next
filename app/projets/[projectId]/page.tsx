@@ -4,10 +4,8 @@ import getFormattedDate from '@/lib/getFormattedDate'
 import Link from "next/link";
 
 export function generateMetadata({ params }: { params: { projectId: string } }) {
-
     const projects = getSortedProjectsData()
     const { projectId: projectId } = params
-
     const project = projects.find(project => project.id === projectId)
 
     if (!project) {
@@ -15,14 +13,12 @@ export function generateMetadata({ params }: { params: { projectId: string } }) 
             title: 'Post Not Found'
         }
     }
-
     return {
         title: project.title,
     }
 }
 
 export default async function Project({ params }: { params: { projectId: string } }) {
-
     const projects = getSortedProjectsData()
     const { projectId: projectId } = params
     console.log(projectId);
@@ -31,9 +27,7 @@ export default async function Project({ params }: { params: { projectId: string 
     if (!projects.find(project => project.id === projectId)) notFound()
 
     const { title, date, contentHtml } = await getProjectData(projectId)
-
     const pubDate = getFormattedDate(date)
-
     return (
         <div className="mx-auto mb-10 mt-10 max-w-4xl text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <main className="markdown-content px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">

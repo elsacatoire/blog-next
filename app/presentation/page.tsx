@@ -49,8 +49,8 @@ export default function Présentation() {
                             L&rsquo;intérêt c&rsquo;est le produit, ce qu&rsquo;il me permet d&rsquo;apprendre et ce qu&rsquo;il apporte à mes contemporains.
                             Le plus important pour moi, c&rsquo;est l&rsquo;impact final du produit.
                             Je suis prête à apprendre n&rsquo;importe quelle technologie pour un projet qui m&rsquo;enthousiasme et qui correspond à mes valeurs.</p>
-
                     </div>
+
                     <div className="md:w-1/3 md:order-2 center">
                         <MyProfilePic
                             src="/images/profile.jpg"
