@@ -5,7 +5,6 @@ import Link from "next/link";
 import TextBoxEmphase from "./components/TextBoxEmphase";
 
 export default function Home() {
-
   // Text data for the different parts of the page, in order to use components
   const textBoxData: { title: string; items: string[] }[] = [
     {
