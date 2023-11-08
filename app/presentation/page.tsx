@@ -33,7 +33,7 @@ export default function Présentation() {
                         <p className="font-normal text-gray-700 dark:text-gray-400">
                             En reconversion professionnelle pour devenir développeuse,
                             je suis en contart pro depuis le 23 cotobre 2023. Je travaille sur des projets concrets favorisant la montée en compétence avec
-                            des personnes inspirantes auprès desquelles je progresse et j'apprends.
+                            des personnes inspirantes auprès desquelles je progresse et j&apos;apprends.
                         </p>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">Dans mon précédent métier en tant que manager de projets et établissements culturels dans le secteur public, j&rsquo;ai acquis une précieuse expérience dans la prise de responsabilités de manière indépendante. De plus, mes expériences de voyages en solo ont renforcé ma capacité à être fiable et autonome, des qualités que je considère comme essentielles dans n&rsquo;importe quel environnement de travail, même en dehors du cadre technique.</p>

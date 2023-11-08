@@ -11,7 +11,7 @@ export default function Contact() {
                             Curieuse et ouverte la conversation, n&rsquo;hésitez pas à me contacter
                         </h5>
                         <h3 className="text-center text-green-700 md:px-20 md:mb-2 md:text-3l tracking-tight dark:text-white">
-                            *I am also proficient in English, accustomed to living and working abroad. Open to relocating or working remotely for the right project. Let's talk about it!
+                            *I am also proficient in English, accustomed to living and working abroad. Open to relocating or working remotely for the right project. Let&apos;s talk about it!
                         </h3>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">
