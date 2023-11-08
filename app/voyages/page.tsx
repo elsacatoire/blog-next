@@ -1,9 +1,43 @@
 import Gallery from "../components/Gallery";
 import Link from "next/link";
 import Image from "next/image";
-
+import TextBoxEmphase from "../components/TextBoxEmphase";
 
 export default function Voyages() {
+    // Text data for the different parts of the page, in order to use components
+    const textBoxData: { title: string; items: string[] }[] = [
+        {
+            title: 'Production',
+            items: ['• 57 000km parcourus',
+                '• 22 pays',
+                '• 9 woofings',
+                '• Pair & mob voyages',
+                '• Création et alimentation de communautés de voyageurs libres',
+                '• Beaucoup de riens'],
+        },
+        {
+            title: "Stack",
+            items: ['• Renault Trafic L1L2',
+                '• Batterie Lithium 100A',
+                '• 60L eau propre',
+                '• Douche solaire',
+                '• Pelle',
+                '• Reine du gaffeur',
+                '• Park4Night',
+                '• Chaussettes pilou',
+            ],
+        },
+        {
+            title: 'Skills',
+            items: ['• Django, FAST API',
+                '• Autonomie',
+                '• Langages : anglais fluent, roumain, serbo-croate, turc',
+                '• Ukulélé',
+                '• Conduire un tracteur',
+                '• Traite et fabrication de fromage',
+                '• Randonnée'],
+        },
+    ];
     return (
         <main>
             <div className="text-base text-left block p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -33,50 +67,13 @@ export default function Voyages() {
                             />
                         </Link>
                     </div>
-
                 </div>
                 <div className="justify-center flex flex-wrap mt-12">
-                    <div className="w-full md:w-1/3 md:order-1 p-3">
-                        <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Production</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; 57 000km parcourus</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; 22 pays</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; 9 woofings</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Pair & mob voyages</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Création et alimentation de communautés de voyageurs libres</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Beaucoup de riens</p>
-
-                        </div>
-                    </div>
-                    <div className="w-full md:w-1/3 md:order-2 p-3">
-                        <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Stack</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Renault Trafic L1L2</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Batterie Lithium 100A</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; 60L eau propre</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Douche solaire</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Pelle</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Reine du gaffeur</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Park4Night</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Chaussettes pilou</p>
-                        </div>
-                    </div>
-
-                    <div className="w-full md:w-1/3 md:order-3 p-3">
-                        <div className="h-full max-w-sm p-6 bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Skills</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Autonomie</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Langages : anglais fluent, roumain, serbo-croate, turc</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Ukulélé</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Conduire un tracteur</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Traite et fabrication de fromage</p>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">&#x2022; Randonnée</p>
-                        </div>
-                    </div>
+                    {textBoxData.map((tech, index) => (
+                        <TextBoxEmphase key={index} title={tech.title} items={tech.items} style={"w-full md:w-1/3 md:order-1 p-3"} />
+                    ))}
                 </div>
             </div>
-
-
             <div>
                 <Gallery />
             </div>
