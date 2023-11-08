@@ -19,6 +19,5 @@ export default function MyProfilePic({ src, alt, width, height, priority = true 
                 priority={priority}
             />
         </section>
-
     )
 }

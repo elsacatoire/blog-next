@@ -11,7 +11,7 @@ export default function Contact() {
                             Curieuse et ouverte la conversation, n&rsquo;hésitez pas à me contacter
                         </h5>
                         <h3 className="text-center text-green-700 md:px-20 md:mb-2 md:text-3l tracking-tight dark:text-white">
-                            *Elsa is also available in English. I am used to live and work abroad. Willing to move in another country and/or be remote for the right project.  So let&rsquo;s talk about your projetcts !
+                            *I am also proficient in English, accustomed to living and working abroad. Open to relocating or working remotely for the right project. Let&apos;s talk about it!
                         </h3>
                         <br />
                         <p className="font-normal text-gray-700 dark:text-gray-400">
@@ -27,7 +27,6 @@ export default function Contact() {
                             <h5 className="text-center mb-2 md:text-1xl font-bold tracking-tight text-green-700 dark:text-white">
                                 &#x2794; <Link href="https://github.com/elsacatoire/next-portfolio/issues">GitHub Issues</Link>
                             </h5></section>
-
                     </div>
 
                     <div className="object-center md:w-1/3 md:order-1 rounded-lg mx-auto max-w-md">
@@ -43,6 +42,7 @@ export default function Contact() {
                         </Link>
                     </div>
                 </div>
+
                 <div className="justify-center flex flex-wrap mt-5">
                     <div className="w-full md:w-1/3 md:order-1 p-3">
                         <div className="h-full max-w-sm p-6 mx-auto  bg-gray-300 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
@@ -80,8 +80,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-
             </div>
         </main>
     )
-}
+};

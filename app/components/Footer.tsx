@@ -3,12 +3,11 @@ import { FaGithub, FaLinkedin, FaMedium, FaInstagram } from "react-icons/fa"
 
 export default function Footer() {
     return (
-
         <footer className="bg-gray-200 shadow dark:bg-gray-800">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <span className="text-sm text-green-700 sm:text-left dark:text-gray-400">© 2023.
                     <Link href="/" className="hover:underline">Elsa Catoire</Link>. All Rights Reserved.
-                    <p>Created with my own hands with Next.js, TailwindCSS and Markdown</p>
+                    <p>Crafted with Next.js, TailwindCSS, and Markdown, using my own hands</p>
                 </span>
                 <ul className="flex flex-wrap items-center mt-8 text-sm font-medium text-green-700 dark:text-gray-400 sm:mt-0">
                     <li>
