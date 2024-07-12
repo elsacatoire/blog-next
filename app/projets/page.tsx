@@ -44,6 +44,7 @@ export default function Projects() {
                 <div className="justify-center flex flex-wrap mt-5">
                     <ProjectPosts />
                 </div>
+
             </div>
         </main>
     )
