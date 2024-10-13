@@ -27,7 +27,6 @@ export default async function Project({
 }: { params: { projectId: string } }) {
 	const projects = getSortedProjectsData();
 	const { projectId } = params;
-	console.log(projectId);
 
 	if (!projects.find((project) => project.id === projectId)) notFound();
 
@@ -40,12 +39,10 @@ export default async function Project({
 			<main className="markdown-content px-6 prose prose-xl prose-slate dark:prose-invert mx-auto">
 				<h1 className="text-3xl mt-4 mb-0">{title}</h1>
 				<p className="mt-0">{pubDate}</p>
-				<article>
-					<section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-					<p className="mb-8 mt-8 text-xl text-green-700 font-semibold">
-						<Link href="/projets">← Retour aux projets</Link>
-					</p>
-				</article>
+				<article dangerouslySetInnerHTML={{ __html: contentHtml }} />
+				<p className="mb-8 mt-8 text-xl text-green-700 font-semibold">
+					<Link href="/projets">← Retour aux projets</Link>
+				</p>
 			</main>
 		</div>
 	);

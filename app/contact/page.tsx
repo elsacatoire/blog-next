@@ -20,9 +20,9 @@ export default function Contact() {
 						<p className="font-normal text-gray-700 dark:text-gray-400"></p>
 						<br />
 						<section className="text-center">
-							<h5 className="md:mt-5 text-center mx-auto mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+							<h1 className="md:mt-5 text-center mx-auto mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 								Des feedbacks techniques, typo, design ?
-							</h5>
+							</h1>
 							<p className="font-normal text-gray-700 dark:text-gray-400">
 								J&apos;ai réalisé ce site pour apprendre
 							</p>

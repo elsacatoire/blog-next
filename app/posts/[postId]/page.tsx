@@ -1,7 +1,5 @@
-import { log } from "console";
 import getFormattedDate from "@/lib/getFormattedDate";
 import { getPostData, getSortedPostsData } from "@/lib/posts";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 

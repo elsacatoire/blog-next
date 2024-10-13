@@ -4,12 +4,13 @@ import { FaGithub, FaInstagram, FaLinkedin, FaMedium } from "react-icons/fa";
 export default function Footer() {
 	const links = [
 		{
+			name: "LinkedIn",
 			href: "https://www.linkedin.com/in/elsa-catoire-11402753/",
 			icon: FaLinkedin,
 		},
-		{ href: "https://github.com/elsacatoire", icon: FaGithub },
-		{ href: "https://www.instagram.com/elsa_des_bois/", icon: FaInstagram },
-		{ href: "https://medium.com/@elsa.catoire", icon: FaMedium },
+		{ name: "Github", href: "https://github.com/elsacatoire", icon: FaGithub },
+		{ name: "Insta", href: "https://www.instagram.com/elsa_des_bois/", icon: FaInstagram },
+		{ name: "Medium", href: "https://medium.com/@elsa.catoire", icon: FaMedium },
 	];
 
 	return (
@@ -26,8 +27,8 @@ export default function Footer() {
 					</p>
 				</span>
 				<ul className="flex flex-wrap items-center mt-8 text-sm font-medium text-green-700 dark:text-gray-400 sm:mt-0">
-					{links.map((link, index) => (
-						<li key={index} className="flex gap-1">
+					{links.map((link) => (
+						<li key={link.name} className="flex gap-1">
 							<Link
 								href={link.href}
 								className="mr-5 hover:underline md:mr-10"
