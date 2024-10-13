@@ -1,5 +1,5 @@
 import Image from "next/image";
-/* type MyProfilePicProps = {
+type MyProfilePicProps = {
     src: string;
     alt: string;
     width: number;
@@ -8,7 +8,7 @@ import Image from "next/image";
 };
 
 export default function MyProfilePic(
-	/* { src, alt, width, height, priority = true }: MyProfilePicProps */
+    /* { src, alt, width, height, priority = true }: MyProfilePicProps */
 ) {
     return (
         <section className="w-full border border-gray-200 rounded-lg shadow">

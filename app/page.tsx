@@ -13,7 +13,7 @@ const learningCardContent = {
 	items: ["Java", "PHP", "SQL"]
 };
 const technosCardContent = {
-	title: "Technos &#9829;",
+	title: "Technos",
 	items: [
 		"JS, TS, HTML, CSS",
 		"React, Vue (TS)",
