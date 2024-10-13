@@ -2,13 +2,18 @@ import { getSortedPostsData } from "@/lib/posts";
 import Link from "next/link";
 import ListItem from "./ListItem";
 
-export default function Posts2() {
-	const posts = getSortedPostsData().slice(0, 2);
+type Posts2Props = {
+	sliceCount?: number,
+	title?: string
+}
+
+export default function Posts2({ sliceCount, title }: Posts2Props) {
+	const posts = getSortedPostsData().slice(0, sliceCount);
 	return (
 		<section className="mt-6 mx-auto max-w-2xl">
-			<h2 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-				Mes deux derniers articles
-			</h2>
+			<h1 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+				{title}
+			</h1>
 			<ul className="w-full">
 				{posts.map((post) => (
 					<ListItem key={post.id} post={post} />
