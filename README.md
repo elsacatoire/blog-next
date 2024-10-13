@@ -40,13 +40,3 @@ pnpm dev
 
 ### Voir et débbug le projet - Open in browser
 Ouvrir [http://localhost:3000](http://localhost:3000) dans votre naviguateur pour voir le résultat. naviguateur de développement : Chrome.
-
-### Learn More about NextJS
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
