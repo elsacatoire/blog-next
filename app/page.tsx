@@ -2,6 +2,28 @@ import Link from "next/link";
 import MyProfilePic2 from "./components/MyProfilePic2";
 import Post2 from "./components/Posts2";
 import ProjectPosts2 from "./components/ProjectPosts2";
+import CustomCardList from "./components/CustomCardList";
+
+const backlogCardContent = {
+	title: "Backlog",
+	items: ["Django, FAST API", "React Native", "Angular", "Docker"]
+}
+const learningCardContent = {
+	title: "J’apprends aussi",
+	items: ["Java", "PHP", "SQL"]
+};
+const technosCardContent = {
+	title: "Technos &#9829;",
+	items: [
+		"JS, TS, HTML, CSS",
+		"React, Vue (TS)",
+		"Django RF (Python)",
+		"Java Spring Boot",
+		"strapi (CSS Headless)",
+		"SQL (Postgre), NoSQL (MongoDB)",
+		"API REST"
+	]
+};
 
 export default function Home() {
 	return (
@@ -9,12 +31,12 @@ export default function Home() {
 			<div className="text-left block pr-3 md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 				<div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
 					<div className="md:w-2/3 md:order-1 ml-5">
-						<h5 className="text-center mb-2 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+						<h1 className="text-center mb-2 mt-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							Bonjour et bienvenue 👋&nbsp;
 							<span className="whitespace-nowrap">
 								Hi I&apos;m <span className="font-bold">Elsa</span>
 							</span>
-						</h5>
+						</h1>
 						<br />
 						<p className="font-normal text-gray-700 dark:text-gray-400">
 							Je m&rsquo;appelle Elsa en évolution professionnelle dans le
@@ -41,28 +63,24 @@ export default function Home() {
 							<p className="text-xl font-semibold text-green-700 dark:text-gray-400">
 								&#128640;En projet
 							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Alternance developpeuse full stack d&rsquo;un an à
-								Nantes depuis d&rsquo;octobre 2023
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Projet dev perso : Gobiloc, app de gestion de
-								collocation
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Projet pro : client SNCF Connect
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Préparation de la certification{" "}
-								<span className="text-green-700">
-									{" "}
-									<Link href="https://www.francecompetences.fr/recherche/rncp/37873/">
-										Conceptrice développeuse d&rsquo;application web
-									</Link>{" "}
-									RNCP 6 (BAC+3)
-								</span>{" "}
-								en 2024
-							</p>
+							<ul className="font-normal text-gray-700 dark:text-gray-400 list-disc list-inside">
+								<li>
+									Alternance developpeuse full stack d&rsquo;un an à Nantes
+									depuis d&rsquo;octobre 2023
+								</li>
+								<li>Projet dev perso : Gobiloc, app de gestion de collocation</li>
+								<li>Projet pro : client SNCF Connect</li>
+								<li>
+									Préparation de la certification{" "}
+									<span className="text-green-700">
+										<Link href="https://www.francecompetences.fr/recherche/rncp/37873/">
+											Conceptrice développeuse d&rsquo;application web
+										</Link>{" "}
+										RNCP 6 (BAC+3)
+									</span>{" "}
+									en 2024
+								</li>
+							</ul>
 						</div>
 						<br />
 						<div>
@@ -87,70 +105,11 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="justify-center flex flex-wrap mt-12">
-					<div className="w-full md:w-1/3 md:order-1 p-3">
-						<div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-								Technos &#9829;
-							</h5>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; JS, TS, HTML, CSS
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; React, Vue (TS)
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Django RF (Python)
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Java Spring Boot
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; strapi (CSS Headless)
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; SQL (Postgre), NoSQL (MongoDB)
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; API REST
-							</p>
+					{[technosCardContent, learningCardContent, backlogCardContent].map((content, index) => (
+						<div key={index} className={`w-full md:w-1/3 md:order-${index + 1} p-3`}>
+							<CustomCardList title={content.title} items={content.items} />
 						</div>
-					</div>
-					<div className="w-full md:w-1/3 md:order-2 p-3">
-						<div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-								J&rsquo;apprends aussi
-							</h5>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Java
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; PHP
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; SQL
-							</p>
-						</div>
-					</div>
-
-					<div className="w-full md:w-1/3 md:order-3 p-3">
-						<div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-								Backlog
-							</h5>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Django, FAST API
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; React nativ
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Angular
-							</p>
-							<p className="font-normal text-gray-700 dark:text-gray-400">
-								&#x2022; Docker
-							</p>
-						</div>
-					</div>
+					))}
 				</div>
 			</div>
 			<div className="w-full flex flex-wrap mt-10 justify-center">
