@@ -1,5 +1,5 @@
-import Image from "next/image"
-type MyProfilePicProps = {
+import Image from "next/image";
+/* type MyProfilePicProps = {
     src: string;
     alt: string;
     width: number;
@@ -7,17 +7,19 @@ type MyProfilePicProps = {
     priority?: boolean;
 };
 
-export default function MyProfilePic({ src, alt, width, height, priority = true }: MyProfilePicProps) {
+export default function MyProfilePic(
+	/* { src, alt, width, height, priority = true }: MyProfilePicProps */
+) {
     return (
         <section className="w-full border border-gray-200 rounded-lg shadow">
             <Image
                 className="mx-auto mt-0 rounded-lg"
-                src={src}
-                width={width}
-                height={height}
-                alt={alt}
-                priority={priority}
+                src="/images/profile.jpg"
+                width={600}
+                height={600}
+                alt="Elsa Catoire"
+                priority={true}
             />
         </section>
-    )
+    );
 }
