@@ -11,7 +11,7 @@ image: "/images/blog/1-blog-post.webp"
 
 
 Déjà un mois que j’ai commencé la formation chez Ada Tech School. Un mois. C’est vertigineux. C’est vertigineux de réaliser tout ce que j’ai “appris” en un mois, c’est vertigineux de me dire qu’il ne me reste plus que 8 mois pour commencer à travailler en alternance. Entre panique et excitation, mon cœur chavire;
-<br>
+
 
 Je mets des guillemets à “appris”, non pas car c’est une string (blague de jeune dév), mais parce que dans une école se revendiquant de pédagogie Montessori on n’apprend pas. Pas de par cœur, pas de briques, pas de leçon, pas de prof… que du travail et des encadrant.e.s. Je pourrais remplacer “appris” par : “ce que j’ai travaillé” ce mois-ci, “ce que j’ai cherché”, “ce que j’ai trouvé, “ce que j’ai compris”, “ce que j’ai solutionné”, “ce que j’ai rangé dans ma tête”, “ce que je crois” et “ce que j’ai peur”. Mais le verbe apprendre, tu en conviendras, est plus court. Et dans cette école je ne suis pas une élève, je suis une apprenante.
 
