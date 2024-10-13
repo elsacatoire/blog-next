@@ -1,16 +1,16 @@
 import Link from "next/link";
+import CustomCardList from "./components/CustomCardList";
 import MyProfilePic2 from "./components/MyProfilePic2";
 import Post2 from "./components/Posts2";
 import ProjectPosts2 from "./components/ProjectPosts2";
-import CustomCardList from "./components/CustomCardList";
 
 const backlogCardContent = {
 	title: "Backlog",
-	items: ["Django, FAST API", "React Native", "Angular", "Docker"]
-}
+	items: ["Django, FAST API", "React Native", "Angular", "Docker"],
+};
 const learningCardContent = {
 	title: "J’apprends aussi",
-	items: ["Java", "PHP", "SQL"]
+	items: ["Java", "PHP", "SQL"],
 };
 const technosCardContent = {
 	title: "Technos",
@@ -21,8 +21,8 @@ const technosCardContent = {
 		"Java Spring Boot",
 		"strapi (CSS Headless)",
 		"SQL (Postgre), NoSQL (MongoDB)",
-		"API REST"
-	]
+		"API REST",
+	],
 };
 
 export default function Home() {
@@ -68,7 +68,9 @@ export default function Home() {
 									Alternance developpeuse full stack d&rsquo;un an à Nantes
 									depuis d&rsquo;octobre 2023
 								</li>
-								<li>Projet dev perso : Gobiloc, app de gestion de collocation</li>
+								<li>
+									Projet dev perso : Gobiloc, app de gestion de collocation
+								</li>
 								<li>Projet pro : client SNCF Connect</li>
 								<li>
 									Préparation de la certification{" "}
@@ -105,17 +107,30 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="justify-center flex flex-wrap mt-12">
-					{[technosCardContent, learningCardContent, backlogCardContent].map((content, index) => (
-						<div key={index} className={`w-full md:w-1/3 md:order-${index + 1} p-3`}>
-							<CustomCardList title={content.title} items={content.items} />
-						</div>
-					))}
+					{[technosCardContent, learningCardContent, backlogCardContent].map(
+						(content, index) => (
+							<div
+								key={index}
+								className={`w-full md:w-1/3 md:order-${index + 1} p-3`}
+							>
+								<CustomCardList title={content.title} items={content.items} />
+							</div>
+						),
+					)}
 				</div>
 			</div>
 			<div className="w-full flex flex-wrap mt-10 justify-center">
 				{[
-					{ component: <ProjectPosts2 />, key: 'project-posts', className: 'md:pr-2 mb-4 md:mb-0' },
-					{ component: <Post2 title={"Derniers articles"} sliceCount={2} />, key: 'posts', className: 'md:pl-2' }
+					{
+						component: <ProjectPosts2 />,
+						key: "project-posts",
+						className: "md:pr-2 mb-4 md:mb-0",
+					},
+					{
+						component: <Post2 title={"Derniers articles"} sliceCount={2} />,
+						key: "posts",
+						className: "md:pl-2",
+					},
 				].map(({ component, key, className }) => (
 					<div key={key} className={`w-full md:w-1/2 ${className}`}>
 						<div className="text-lg text-left p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 h-full flex flex-col">

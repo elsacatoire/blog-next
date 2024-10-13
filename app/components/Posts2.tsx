@@ -3,9 +3,9 @@ import Link from "next/link";
 import ListItem from "./ListItem";
 
 type Posts2Props = {
-	sliceCount?: number,
-	title?: string
-}
+	sliceCount?: number;
+	title?: string;
+};
 
 export default function Posts2({ sliceCount, title }: Posts2Props) {
 	const posts = getSortedPostsData().slice(0, sliceCount);

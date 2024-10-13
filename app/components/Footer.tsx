@@ -9,8 +9,16 @@ export default function Footer() {
 			icon: FaLinkedin,
 		},
 		{ name: "Github", href: "https://github.com/elsacatoire", icon: FaGithub },
-		{ name: "Insta", href: "https://www.instagram.com/elsa_des_bois/", icon: FaInstagram },
-		{ name: "Medium", href: "https://medium.com/@elsa.catoire", icon: FaMedium },
+		{
+			name: "Insta",
+			href: "https://www.instagram.com/elsa_des_bois/",
+			icon: FaInstagram,
+		},
+		{
+			name: "Medium",
+			href: "https://medium.com/@elsa.catoire",
+			icon: FaMedium,
+		},
 	];
 
 	return (
