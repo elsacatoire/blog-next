@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const images = [
@@ -17,10 +18,12 @@ const Gallery = () => {
 			<div className="grid grid-cols-2 md:grid-cols-4 gap-4">
 				{images.map((image) => (
 					<div key={image.src} className="aspect-ratio-1-1">
-						<img
+						<Image
 							className="object-cover w-full h-full rounded-lg"
 							src={image.src}
 							alt={`Image ${image.alt}`}
+							width={100}
+							height={100}
 						/>
 					</div>
 				))}
