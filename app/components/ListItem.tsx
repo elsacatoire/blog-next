@@ -1,4 +1,5 @@
 import getFormattedDate from "@/lib/getFormattedDate";
+import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
@@ -14,7 +15,7 @@ export default function ListItem({ post }: Props) {
 			className="mt-5 mx-auto w-full flex flex-col items-center rounded-lg bg-gray-300 border shadow md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
 			href={`/posts/${id}`}
 		>
-			<img
+			<Image
 				className="imgProject rounded-l"
 				src={image}
 				alt=""

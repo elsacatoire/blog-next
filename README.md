@@ -1,42 +1,53 @@
-# Mon portfolio - Welcome to my portfolio !
+# Documentation du Site Portfolio
 
-Bienvenue sur mon portfolio en ligne ! Je suis Elsa, développeuse en apprentissage avec à coeur l'envie de développer des applications qui facilitent la vie de mes contemporains. Ce portfolio est conçu pour présenter mon travail, mes projets, mes articles de blog et mes voyages. C'est aussi un projet qui me permet d'apprendre à coder avec Next.js
-- GitHub :  https://github.com/elsacatoire
-- LinkedIn : https://www.linkedin.com/in/elsa-catoire-11402753/
+## Introduction
 
-## Technologies utilisées - Stack
+Ce portfolio a été conçu pour présenter mon parcours, mes expériences professionnelles, ainsi que mes projets personnels. Le site a été développé **from scratch** en utilisant **TypeScript**, **React**, **Next.js**, **TailwindCSS** et **Markdown** pour le contenu textuel.
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Deployment**: [Vercel](https://vercel.com/)
+---
 
-## Aperçu - Preview
+## Pages
 
-![page accueil](image.png)
-![page blog](image-1.png)
-![page contact](image-2.png)
+- **Accueil** : Résumé de mon profil et dernières nouvelles.
+- **About** : Présentation complète de mon profil.
+- **Blog** : Textes.
+- **Projets** : Présentation des projets de développement fullstack.
 
+---
 
-## Installation - Getting Started
+## Stack technique
 
-### Récupérer le projet - Clone the project
-Clonez ce dépôt sur votre machine locale.
-```bash
-git clone git@github.com:elsacatoire/blog-next.git
-```
+### **Frontend**
+- **Next.js** : Framework React utilisé pour sa puissance en rendu SSR/CSR et son écosystème complet.
+- **TailwindCSS** : Framework CSS pour concevoir rapidement des interfaces élégantes et responsives.
+- **Chakra UI** *(à venir)* : Intégration prévue pour profiter de composants déjà conçus et accessibles.
 
-### Installer les dépendances - install dependencies
-```bash
-npm install
-```
+### **Gestion du contenu**
+- **Markdown** : Utilisé pour rédiger les textes (parcours, projets, expériences). Permet de modifier facilement le contenu sans changer le code.
 
-### Lancer le serveur - Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### **Roadmap des améliorations**
+- Migration vers Chakra UI : Ajouter des composants prêts à l'emploi pour accélérer le développement.
+- Amélioration de la gestion des images.
+- Gestion du thème sombre et clair.
+- SEO : Optimiser le référencement pour améliorer la visibilité.
+- Tests unitaires : Mettre en place des tests pour garantir la fiabilité du site.
 
-### Voir et débbug le projet - Open in browser
-Ouvrir [http://localhost:3000](http://localhost:3000) dans votre naviguateur pour voir le résultat. naviguateur de développement : Chrome.
+### **Linting**
+- **Biome** : Utilisé pour maintenir un code propre et standardisé.
+  - Commande pour vérifier le linting :  
+    ```bash
+    npx biome lint
+    ```
+  - Commande pour corriger automatiquement les erreurs :  
+    ```bash
+    npx biome format
+    ```
+---
+
+## Déploiement
+Le site est actuellement déployé grâce à Vercel, la plateforme officielle pour les projets Next.js.
+se rendre sur : https://portfolio-next-psi-ten.vercel.app/
+
+## À propos de moi
+Développeuse curieuse et enthousiaste, j'ai conçu ce portfolio pour mettre en avant mon expertise dans le développement fullstack et tster des trucs.
+Vous pouvez me contacter via linked in : https://www.linkedin.com/in/elsa-catoire-11402753/

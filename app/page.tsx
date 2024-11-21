@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { v4 as uuidv4 } from 'uuid'
 import CustomCardList from "./components/CustomCardList";
 import MyProfilePic2 from "./components/MyProfilePic2";
 import Post2 from "./components/Posts2";
@@ -110,7 +111,7 @@ export default function Home() {
 					{[technosCardContent, learningCardContent, backlogCardContent].map(
 						(content, index) => (
 							<div
-								key={index}
+								key={uuidv4()}
 								className={`w-full md:w-1/3 md:order-${index + 1} p-3`}
 							>
 								<CustomCardList title={content.title} items={content.items} />
