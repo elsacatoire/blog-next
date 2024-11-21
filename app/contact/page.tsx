@@ -17,7 +17,7 @@ export default function Contact() {
 							the right project. So let&rsquo;s talk about your projetcts !
 						</h3>
 						<br />
-						<p className="font-normal text-gray-700 dark:text-gray-400"></p>
+						<p className="font-normal text-gray-700 dark:text-gray-400"/>
 						<br />
 						<section className="text-center">
 							<h1 className="md:mt-5 text-center mx-auto mb-2 md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
