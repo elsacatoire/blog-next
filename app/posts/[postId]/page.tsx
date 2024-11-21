@@ -1,3 +1,4 @@
+import ReactMarkdown from "react-markdown";
 import getFormattedDate from "@/lib/getFormattedDate";
 import { getPostData, getSortedPostsData } from "@/lib/posts";
 import Link from "next/link";
@@ -38,13 +39,13 @@ export default async function Post({ params }: { params: { postId: string } }) {
 	const pubDate = getFormattedDate(date);
 
 	return (
-		<div className="mx-auto mb-10 mt-10 max-w-4xl text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+		<div className="mx-auto mb-10 mt-10 max-w-4xl text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 			<div className="max-w-3xl mx-auto">
 				<main className="markdown-content px-6 prose prose-xl prose-slate dark:prose-invert mx-auto mb-30">
 					<h1 className="text-3xl mt-8 mb-8">{title}</h1>
 					<p className="mt-0 mb-4">{pubDate}</p>
 					<article>
-						<section dangerouslySetInnerHTML={{ __html: contentHtml }} />
+						<ReactMarkdown>{contentHtml}</ReactMarkdown>
 						<p className="mb-8 mt-8 text-xl font-semibold text-green-700">
 							<Link href="/posts">← Retour aux articles</Link>
 						</p>
