@@ -63,10 +63,7 @@ export default function Home() {
 						),
 					)}
 				</div>
-
-				<div>
-					<MarkdownLoader filePath="/content/main_page_content.md" />
-				</div>
+				<MarkdownLoader filePath="/content/main_page_content.md" />
 			</div>
 		</div>
 	);
