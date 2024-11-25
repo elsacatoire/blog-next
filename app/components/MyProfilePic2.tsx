@@ -10,7 +10,6 @@ export default function MyProfilePic2() {
 				width={300}
 				height={300}
 				alt="Elsa Catoire"
-				priority={true}
 			/>
 		</section>
 	);

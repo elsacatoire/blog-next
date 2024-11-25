@@ -9,11 +9,11 @@ export default function Footer() {
 			icon: FaLinkedin,
 		},
 		{ name: "Github", href: "https://github.com/elsacatoire", icon: FaGithub },
-		{
+		/* {
 			name: "Insta",
 			href: "https://www.instagram.com/elsa_des_bois/",
 			icon: FaInstagram,
-		},
+		}, */
 		{
 			name: "Medium",
 			href: "https://medium.com/@elsa.catoire",
@@ -25,9 +25,9 @@ export default function Footer() {
 		<footer className="bg-gray-200 shadow dark:bg-gray-800">
 			<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 				<span className="text-sm text-green-700 sm:text-left dark:text-gray-400">
-					© 2023.
+					© 2023
 					<Link href="/" className="hover:underline">
-						Elsa Catoire
+						. Elsa Catoire
 					</Link>
 					. All Rights Reserved.
 					<p>

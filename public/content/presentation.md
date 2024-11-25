@@ -12,8 +12,8 @@ Toujours passionnée par les problématiques du **service public**, j’aspirais
 
 ### Ce qui me motive dans le développement
 Ce que j’aime le plus dans le code, c’est **la résolution de problèmes**.  
-J’ai débuté avec **JavaScript** pour le développement web et avec **Python** pour les algorithmes. Ma formation de développeuse full-stack m’a permis de travailler sur des projets variés, en équipe et auelsaonomie.
+J’ai débuté avec **JavaScript** pour le développement web et avec **Python** pour les algorithmes. Ma formation de développeuse full-stack m’a permis de travailler sur des projets variés, en équipe et en autonomie.
 
-Le développement est une quête d’**apprentissage continu**, 
+Le développement est une quête d’**apprentissage continu**, curieuse par nature, je m'amuse beaucoup à tester, essayer et même échouer.
 
-Ce qui m’importe, c’est le **produit final**, son impact et ce qu’il apporte à ses utilisateurs. Je suis prête à maîtriser n’importe quelle technologie pour un projet qui m’enthousiasme et qui résonne avec mes valeurs.  
+Ce qui m’importe, c’est le **produit final**, son impact et ce qu’il apporte à ses utilisateurs. Je suis prête à maîtriser n’importe quelle technologie pour un projet qui résonne avec mes valeurs.  
