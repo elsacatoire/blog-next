@@ -8,53 +8,53 @@ import Post2 from "./components/Posts2";
 import ProjectPosts2 from "./components/ProjectPosts2";
 import ReactMarkdown from "react-markdown";
 import { useEffect, useState } from "react";
-  
+
 const frontendCardContent = {
 	title: "Frontend",
 	items: [
-	  "TypeScript, HTML, CSS",
-	  "React, NextUI, Next",
-	  "Vue, Vuetify, Nuxt",
-	  "React Native",
-	  "ShadnUI"
+		"TypeScript, HTML, CSS",
+		"React, NextUI, Next",
+		"Vue, Vuetify, Nuxt",
+		"React Native",
+		"ShadnUI"
 	],
-  };
-  
-  const backendCardContent = {
+};
+
+const backendCardContent = {
 	title: "Backend",
 	items: [
-	  "Django RF (Python)",
-	  "API REST",
-	  "SQL (PostgreSQL), NoSQL (MongoDB)",
-	  "Strapi (CMS Headless)",
-	  "Java Spring Boot (notions)",
+		"Django RF (Python)",
+		"API REST",
+		"SQL (PostgreSQL), NoSQL (MongoDB)",
+		"Strapi (CMS Headless)",
+		"Java Spring Boot (notions)",
 	],
-  };
-  
-  const othersCardContent = {
+};
+
+const othersCardContent = {
 	title: "Autres",
 	items: [
-	  "Docker",
-	  "Postman (tests API)",
-	  "Github Actions (CI/CD)",
-	  "Playwrigh (tests E2E)"
+		"Docker",
+		"Postman (tests API)",
+		"Github Actions (CI/CD)",
+		"Playwrigh (tests E2E)"
 	],
-  };
+};
 
 export default function Home() {
 
 	const [heroMdContent, setHeroMdContent] = useState("");
 	const [mainMdContent, setMainMdContent] = useState("");
 
-  useEffect(() => {
-    fetch("/content/hero.md")
-      .then((res) => res.text())
-      .then((text) => setHeroMdContent(text));
+	useEffect(() => {
+		fetch("/content/hero.md")
+			.then((res) => res.text())
+			.then((text) => setHeroMdContent(text));
 
-	  fetch("/content/main_page_content.md")
-      .then((res) => res.text())
-      .then((text) => setMainMdContent(text));
-  }, []);
+		fetch("/content/main_page_content.md")
+			.then((res) => res.text())
+			.then((text) => setMainMdContent(text));
+	}, []);
 
 	return (
 		<main>
@@ -82,33 +82,13 @@ export default function Home() {
 						),
 					)}
 				</div>
-			
+
 				<div className="prose prose-lg dark:prose-dark w-full">
 					<ReactMarkdown className="prose dark:prose-dark">
 						{mainMdContent}
 					</ReactMarkdown>
 				</div>
 			</div>
-			{/* <div className="w-full flex flex-wrap mt-10 justify-center">
-				{[
-					{
-						component: <ProjectPosts2 />,
-						key: "project-posts",
-						className: "md:pr-2 mb-4 md:mb-0",
-					},
-					{
-						component: <Post2 title={"Derniers articles"} sliceCount={2} />,
-						key: "posts",
-						className: "md:pl-2",
-					},
-				].map(({ component, key, className }) => (
-					<div key={key} className={`w-full md:w-1/2 ${className}`}>
-						<div className="text-lg text-left p-5 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full flex flex-col">
-							{component}
-						</div>
-					</div>
-				))}
-			</div> */}
 		</main>
 	);
 }

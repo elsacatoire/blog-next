@@ -1,6 +1,6 @@
 ## **Elsa — Développeuse Fullstack/Frontend Junior**  
 
-### 🌟 **À propos de moi**
+### **À propos de moi**
 Je suis en **évolution professionnelle dans le développement web et logiciel**.
 
 - Titre pro **Conceptrice Développeuse d'Applications (RNCP 6 - Bac+3/4)**,
