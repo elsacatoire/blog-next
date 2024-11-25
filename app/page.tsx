@@ -65,7 +65,7 @@ export default function Home() {
 	}, []);
 
 	return (
-		<div className="text-left block pr-3 md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+		<div className="flex flex-col gap-3 text-left block pr-3 md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
 			<h1 className="font-bold text-2xl">Elsa — Développeuse Fullstack/Frontend Junior</h1>
 			<div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
 				<div className="md:w-2/3 md:order-1 prose prose-lg dark:prose-dark">
@@ -80,27 +80,29 @@ export default function Home() {
 					)}
 				</div>
 
-				<div className="md:w-1/3 md:order-2 rounded-lg top m-auto">
+				<div className="md:w-1/3 md:order-2 rounded-lg">
 					<MyProfilePic2 />
 				</div>
 			</div>
-			<div className="justify-center flex flex-wrap">
-				{[frontendCardContent, backendCardContent, othersCardContent].map(
-					(content, index) => (
-						<div
-							key={uuidv4()}
-							className={`w-full md:w-1/3 md:order-${index + 1} p-3`}
-						>
-							<CustomCardList title={content.title} items={content.items} />
-						</div>
-					),
-				)}
-			</div>
+			<div className="flex gap-6">
+				<div className="flex flex-col flex-wrap justify-between">
+					{[frontendCardContent, backendCardContent, othersCardContent].map(
+						(content, index) => (
+							<div
+								key={uuidv4()}
+								className={`w-full md:order-${index + 1}`}
+							>
+								<CustomCardList title={content.title} items={content.items} />
+							</div>
+						),
+					)}
+				</div>
 
-			<div className="prose prose-lg dark:prose-dark w-full">
-				<ReactMarkdown className="prose dark:prose-dark">
-					{mainMdContent}
-				</ReactMarkdown>
+				<div className="prose dark:prose-dark w-full md:w-full">
+					<ReactMarkdown className="prose dark:prose-dark w-full md:w-full">
+						{mainMdContent}
+					</ReactMarkdown>
+				</div>
 			</div>
 		</div>
 	);
