@@ -21,31 +21,29 @@ const diplomas = [
 
 export default function Présentation() {
 	return (
-		<main>
-			<div className="p-6 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-				<div className="flex flex-wrap mt-5">
-					<div className="flex flex-col gap-4 md:w-2/3 md:order-1 md:pr-8 m-auto">
-						<h1 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-							En savoir un petit peu plus sur moi
-						</h1>
-						<div>
-							<MarkdownLoader filePath="/content/presentation.md" />
-						</div>
+		<div className="flex flex-col gap-2">
+			<div className="flex flex-wrap">
+				<div className="flex flex-col gap-4 md:w-2/3 md:order-1 md:pr-8 m-auto">
+					<h1 className="mb-2 text-xl md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+						En savoir un petit peu plus sur moi
+					</h1>
+					<div>
+						<MarkdownLoader filePath="/content/presentation.md" />
+					</div>
+				</div>
+
+				<div className="md:w-1/3 md:order-2 center">
+					<MyProfilePic />
+
+					<div className="mt-5">
+						<CustomCardList title="Et mon temps libre ?" items={hobbies} />
 					</div>
 
-					<div className="md:w-1/3 md:order-2 center">
-						<MyProfilePic />
-
-						<div className="mt-5">
-							<CustomCardList title="Et mon temps libre ?" items={hobbies} />
-						</div>
-
-						<div className="mt-5">
-							<CustomCardList title="Diplômes et concours" items={diplomas} />
-						</div>
+					<div className="mt-5">
+						<CustomCardList title="Diplômes et concours" items={diplomas} />
 					</div>
 				</div>
 			</div>
-		</main>
+		</div>
 	);
 }

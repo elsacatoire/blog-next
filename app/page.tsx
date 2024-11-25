@@ -39,11 +39,11 @@ const othersCardContent = {
 
 export default function Home() {
 	return (
-		<div className="flex flex-col gap-4 text-left block pr-3 md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-			<h1 className="font-bold text-2xl text-green-700">
-				Elsa — Développeuse Fullstack/Frontend
+		<div className="flex flex-col gap-2">
+			<h1 className="font-bold text-xl md:text-2xl">
+				Elsa — Développeuse Fullstack / Frontend
 			</h1>
-			<div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
+			<div className="flex flex-col-reverse gap-4 md:flex-row md:space-x-8 items-start">
 				<div className="flex flex-col gap-4 md:w-2/3 md:order-1">
 					<MarkdownLoader filePath="/content/hero.md" />
 					<CvPaths />
@@ -53,7 +53,7 @@ export default function Home() {
 					<MyProfilePic2 />
 				</div>
 			</div>
-			<div className="flex gap-6">
+			<div className="flex flex-col md:flex-row gap-6">
 				<div className="flex flex-col gap-6 flex-wrap justify-between">
 					{[frontendCardContent, backendCardContent, othersCardContent].map(
 						(content, index) => (
