@@ -21,5 +21,3 @@ const CustomCardList = ({ title, items }: CustomCardListProps) => {
 };
 
 export default CustomCardList;
-const title = "Backlog";
-const items = ["Django, FAST API", "React Native", "Angular", "Docker"];

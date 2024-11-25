@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from "uuid";
 type LinkItem = {
 	text: string;
 	href: string;
@@ -12,7 +12,6 @@ type TextBoxProps = {
 };
 
 const TextBoxEmphase = ({ title, items, style }: TextBoxProps) => {
-
 	return (
 		<div className={style}>
 			<div className="h-full max-w-sm p-6 bg-gray-300 border mx-auto border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
