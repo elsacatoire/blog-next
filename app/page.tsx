@@ -1,11 +1,8 @@
 'use client'
 
-import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
 import CustomCardList from "./components/CustomCardList";
 import MyProfilePic2 from "./components/MyProfilePic2";
-import Post2 from "./components/Posts2";
-import ProjectPosts2 from "./components/ProjectPosts2";
 import ReactMarkdown from "react-markdown";
 import { useEffect, useState } from "react";
 
@@ -16,7 +13,8 @@ const frontendCardContent = {
 		"React, NextUI, Next",
 		"Vue, Vuetify, Nuxt",
 		"React Native",
-		"ShadnUI"
+		"ShadnUI",
+		"Jest"
 	],
 };
 
@@ -32,7 +30,7 @@ const backendCardContent = {
 };
 
 const othersCardContent = {
-	title: "Autres",
+	title: "Outils",
 	items: [
 		"Docker",
 		"Postman (tests API)",
@@ -45,50 +43,65 @@ export default function Home() {
 
 	const [heroMdContent, setHeroMdContent] = useState("");
 	const [mainMdContent, setMainMdContent] = useState("");
+	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {
-		fetch("/content/hero.md")
-			.then((res) => res.text())
-			.then((text) => setHeroMdContent(text));
+		try {
+			fetch("/content/hero.md")
+				.then((res) => res.text())
+				.then((text) => setHeroMdContent(text));
+		} catch (error) {
+			console.log(error);
+		}
 
-		fetch("/content/main_page_content.md")
-			.then((res) => res.text())
-			.then((text) => setMainMdContent(text));
+		try {
+			fetch("/content/main_page_content.md")
+				.then((res) => res.text())
+				.then((text) => setMainMdContent(text));
+		} catch (error) {
+			console.log(error)
+		}
+		setIsLoading(false)
 	}, []);
 
 	return (
-		<main>
-			<div className="text-left block pr-3 md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-				<div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
-					<div className="md:w-2/3 md:order-1 prose prose-lg dark:prose-dark">
+		<div className="text-left block pr-3 md:p-10 text-gray-900 bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+			<h1 className="font-bold text-2xl">Elsa — Développeuse Fullstack/Frontend Junior</h1>
+			<div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
+				<div className="md:w-2/3 md:order-1 prose prose-lg dark:prose-dark">
+					{isLoading ? (
+						<div>
+
+							<p>Markdown en cours de chargement</p></div>
+					) : (
 						<ReactMarkdown className="prose dark:prose-dark">
 							{heroMdContent}
 						</ReactMarkdown>
-					</div>
-
-					<div className="md:w-1/3 md:order-2 rounded-lg top m-auto">
-						<MyProfilePic2 />
-					</div>
-				</div>
-				<div className="justify-center flex flex-wrap">
-					{[frontendCardContent, backendCardContent, othersCardContent].map(
-						(content, index) => (
-							<div
-								key={uuidv4()}
-								className={`w-full md:w-1/3 md:order-${index + 1} p-3`}
-							>
-								<CustomCardList title={content.title} items={content.items} />
-							</div>
-						),
 					)}
 				</div>
 
-				<div className="prose prose-lg dark:prose-dark w-full">
-					<ReactMarkdown className="prose dark:prose-dark">
-						{mainMdContent}
-					</ReactMarkdown>
+				<div className="md:w-1/3 md:order-2 rounded-lg top m-auto">
+					<MyProfilePic2 />
 				</div>
 			</div>
-		</main>
+			<div className="justify-center flex flex-wrap">
+				{[frontendCardContent, backendCardContent, othersCardContent].map(
+					(content, index) => (
+						<div
+							key={uuidv4()}
+							className={`w-full md:w-1/3 md:order-${index + 1} p-3`}
+						>
+							<CustomCardList title={content.title} items={content.items} />
+						</div>
+					),
+				)}
+			</div>
+
+			<div className="prose prose-lg dark:prose-dark w-full">
+				<ReactMarkdown className="prose dark:prose-dark">
+					{mainMdContent}
+				</ReactMarkdown>
+			</div>
+		</div>
 	);
 }
