@@ -1,8 +1,8 @@
-import ReactMarkdown from "react-markdown";
 import getFormattedDate from "@/lib/getFormattedDate";
 import { getPostData, getSortedPostsData } from "@/lib/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ReactMarkdown from "react-markdown";
 
 export function generateMetadata({ params }: { params: { postId: string } }) {
 	const posts = getSortedPostsData();

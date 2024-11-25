@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const navbarItems = [
 	{ href: "/", label: "Accueil" },
-	{ href: "/presentation", label: "About" },
+	{ href: "/presentation", label: "Présentation" },
 	{ href: "/posts", label: "Blog" },
 	{ href: "/projets", label: "Projets" },
 	{ href: "/voyages", label: "Voyages" },
@@ -18,7 +18,7 @@ export default function Navbar() {
 					<Image
 						src="/images/logo.png"
 						className="h-8 w-8 mr-5 md:h-12 md:w-12 md:mr-8"
-						alt="Flowbite Logo"
+						alt="Logo"
 						width={100}
 						height={100}
 					/>

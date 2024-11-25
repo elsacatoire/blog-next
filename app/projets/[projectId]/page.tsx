@@ -1,10 +1,12 @@
-import ReactMarkdown from "react-markdown";
 import getFormattedDate from "@/lib/getFormattedDate";
 import { getProjectData, getSortedProjectsData } from "@/lib/projects";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ReactMarkdown from "react-markdown";
 
-export default async function Project({ params }: { params: { projectId: string } }) {
+export default async function Project({
+	params,
+}: { params: { projectId: string } }) {
 	const projects = getSortedProjectsData();
 	const { projectId } = params;
 
