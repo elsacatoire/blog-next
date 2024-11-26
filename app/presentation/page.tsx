@@ -33,7 +33,12 @@ export default function Présentation() {
 				</div>
 
 				<div className="md:w-1/3 md:order-2 center">
-					<MyProfilePic />
+					<MyProfilePic
+						imgPath={"/images/profile.jpg"}
+						alt={"Elsa Catoire"}
+						width={600}
+						height={600}
+					/>
 
 					<div className="mt-5">
 						<CustomCardList title="Et mon temps libre ?" items={hobbies} />
