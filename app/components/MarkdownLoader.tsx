@@ -1,8 +1,8 @@
 "use client";
+import matter from "gray-matter"; // Importer gray-matter
 import type React from "react";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import matter from "gray-matter"; // Importer gray-matter
 
 type MarkdownLoaderProps = {
 	filePath: string;
