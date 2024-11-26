@@ -1,0 +1,4 @@
+Parmi mes centres d'intérêts, l'écriture tient une place importante. Sans être une finalité en soi, c'est une étape qui me permet de prendre le temps d'intégrer ce qu'il se passe autour et à l'intérieur de moi. J'ai, par exemple, tenu un journal de bord détaillant mon cheminement pendant ma période de reconversion professionnelle.
+Il retrace mon parcours avec sincérité et m'a permis de mieux comprendre et d'apprivoiser cette étape importante de ma vie.
+
+Au-delà de ce journal de bord, j'ai également rédigé quelques articles partageant mon point de vue sur différents sujets liés à ma reconversion et à mon évolution professionnelle.
