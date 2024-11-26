@@ -49,7 +49,9 @@ const MarkdownLoader: React.FC<MarkdownLoaderProps> = ({ filePath }) => {
 	}
 
 	return (
-		<ReactMarkdown className="prose dark:prose-dark">{content}</ReactMarkdown>
+		<ReactMarkdown className="prose max-w-none dark:prose-dark mx-auto">
+			{content}
+		</ReactMarkdown>
 	);
 };
 
