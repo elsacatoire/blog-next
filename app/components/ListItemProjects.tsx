@@ -1,5 +1,4 @@
 import getFormattedDate from "@/lib/getFormattedDate";
-import Image from "next/image";
 import Link from "next/link";
 
 type Props = {

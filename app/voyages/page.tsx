@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Gallery from "../components/Gallery";
+import Gallery from "./components/Gallery";
 
 export default function Voyages() {
 	return (

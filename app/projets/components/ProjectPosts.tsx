@@ -1,5 +1,5 @@
+import ListItemProject from "@/app/components/ListItemProjects";
 import { getSortedProjectsData } from "@/lib/projects";
-import ListItemProject from "./ListItemProjects";
 
 export default function ProjectPosts() {
 	const posts = getSortedProjectsData();

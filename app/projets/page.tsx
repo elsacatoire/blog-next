@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import ProjectPosts from "../components/ProjectPosts";
+import ProjectPosts from "./components/ProjectPosts";
 
 export default function Projects() {
 	return (

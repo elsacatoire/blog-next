@@ -1,5 +1,5 @@
 import MarkdownLoader from "../components/MarkdownLoader";
-import Posts from "../components/Posts";
+import Posts from "./components/Posts";
 
 export default function PostsPage() {
 	return (

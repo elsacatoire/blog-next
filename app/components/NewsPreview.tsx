@@ -1,6 +1,6 @@
 import React from "react";
-import Posts2 from "./Posts2";
-import ProjectPosts2 from "./ProjectPosts2";
+import ProjectPosts2 from "../projets/components/ProjectPosts2";
+import Posts2 from "../posts/components/Posts2";
 
 function NewsPreview() {
 	return (
