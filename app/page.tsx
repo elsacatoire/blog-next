@@ -39,7 +39,7 @@ const othersCardContent = {
 
 export default function Home() {
 	return (
-		<div className="flex flex-col gap-2">
+		<div className="flex flex-col gap-3 md:gap-8">
 			<h1 className="font-bold text-xl md:text-2xl">
 				Elsa — Développeuse Fullstack / Frontend
 			</h1>
@@ -53,17 +53,20 @@ export default function Home() {
 					<MyProfilePic2 />
 				</div>
 			</div>
-			<div className="flex flex-col md:flex-row gap-6">
-				<div className="flex flex-col gap-6 flex-wrap justify-between">
+			<div className="flex flex-col gap-6">
+				{/* Section des cartes */}
+				<div className="flex flex-wrap gap-6 justify-between">
 					{[frontendCardContent, backendCardContent, othersCardContent].map(
-						(content, index) => (
-							<div key={uuidv4()} className={`w-full md:order-${index + 1}`}>
+						(content) => (
+							<div key={uuidv4()} className="w-full md:w-[30%]">
 								<CustomCardList title={content.title} items={content.items} />
 							</div>
 						),
 					)}
 				</div>
-				<MarkdownLoader filePath="/content/main_page_content.md" />
+				<div className="w-full mx-auto">
+					<MarkdownLoader filePath="/content/main_page_content.md" />
+				</div>
 			</div>
 		</div>
 	);
