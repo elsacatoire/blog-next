@@ -2,6 +2,7 @@
 import type React from "react";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import matter from "gray-matter"; // Importer gray-matter
 
 type MarkdownLoaderProps = {
 	filePath: string;
@@ -20,7 +21,10 @@ const MarkdownLoader: React.FC<MarkdownLoaderProps> = ({ filePath }) => {
 					throw new Error(`Erreur lors du chargement du fichier : ${filePath}`);
 				}
 				const text = await response.text();
-				setContent(text);
+
+				// Use gray-matter to extract metadata
+				const { content } = matter(text);
+				setContent(content);
 				setIsLoading(false);
 			} catch (err) {
 				const errorMessage =
