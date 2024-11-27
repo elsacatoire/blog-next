@@ -1,5 +1,5 @@
+import Articles from "../components/Articles";
 import MarkdownLoader from "../components/MarkdownLoader";
-import ProjectPosts from "./components/ProjectPosts";
 
 export default function Projects() {
 	return (
@@ -8,7 +8,7 @@ export default function Projects() {
 				Mes projets professionnels et d&rsquo;apprentissage,
 			</h1>
 			<MarkdownLoader filePath="/content/project-content.md" />
-			<ProjectPosts />
+			<Articles articleType={"project"} />
 		</div>
 	);
 }

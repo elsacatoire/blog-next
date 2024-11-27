@@ -40,7 +40,7 @@ export default async function Project({
 	const pubDate = getFormattedDate(date);
 
 	return (
-		<div className="max-w-4xl">
+		<div className="flex flex-col gap-4 max-w-4xl">
 			<Link href="/posts">← Retour</Link>
 			<h1 className="text-3xl mt-4 mb-0">{title}</h1>
 			<p className="mt-0">{pubDate}</p>
