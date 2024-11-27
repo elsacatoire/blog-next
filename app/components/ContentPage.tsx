@@ -34,30 +34,28 @@ export default async function ContentPage({
 
 	return (
 		<div className="max-w-4xl mx-auto">
-			<main className="markdown-content px-6 prose prose-xl prose-slate dark:prose-invert mx-auto mb-30">
-				<Link href={redirectPath}>← Retour</Link>
+			<Link href={redirectPath}>← Retour</Link>
 
-				<h1 className="text-3xl mt-8 mb-8">{title}</h1>
-				<p className="mt-0 mb-4">{pubDate}</p>
+			<h1 className="text-3xl mt-8 mb-8">{title}</h1>
+			<p className="mt-0 mb-4">{pubDate}</p>
 
-				<article>
-					{/* Si le type utilise du MarkdownLoader */}
-					{type === "blog" && contentPath && (
+			<article>
+				{/* Si le type utilise du MarkdownLoader */}
+				{type === "blog" && contentPath && (
+					<MarkdownLoader filePath={`${contentPath}/${id}.md`} />
+				)}
+
+				{/* Si le type utilise du HTML brut (ReactMarkdown) */}
+				{type === "project" && contentHtml && (
+					<div>
 						<MarkdownLoader filePath={`${contentPath}/${id}.md`} />
-					)}
+					</div>
+				)}
+			</article>
 
-					{/* Si le type utilise du HTML brut (ReactMarkdown) */}
-					{type === "project" && contentHtml && (
-						<div>
-							<MarkdownLoader filePath={`${contentPath}/${id}.md`} />
-						</div>
-					)}
-				</article>
-
-				<p className="mb-8 mt-8 text-xl font-semibold text-green-700">
-					<Link href={redirectPath}>← Retour</Link>
-				</p>
-			</main>
+			<p className="mb-8 mt-8 text-xl font-semibold text-green-700">
+				<Link href={redirectPath}>← Retour</Link>
+			</p>
 		</div>
 	);
 }

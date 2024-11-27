@@ -59,7 +59,6 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="flex flex-col gap-6">
-				{/* Section des cartes */}
 				<div className="flex flex-wrap gap-6 justify-between">
 					{[frontendCardContent, backendCardContent, othersCardContent].map(
 						(content) => (
