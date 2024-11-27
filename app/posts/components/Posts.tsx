@@ -1,8 +1,8 @@
 import ListItem from "@/app/components/ListItem";
-import { getSortedPostsData } from "@/lib/posts";
+import { getSortedContentData } from "@/lib/posts";
 
 export default function Posts() {
-	const posts = getSortedPostsData();
+	const posts = getSortedContentData("post");
 	return (
 		<section className="mt-10 mx-auto">
 			<ul className="w-full grid lg:grid-cols-2 gap-3">

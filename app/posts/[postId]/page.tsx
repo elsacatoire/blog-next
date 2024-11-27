@@ -1,11 +1,11 @@
 import MarkdownLoader from "@/app/components/MarkdownLoader";
 import getFormattedDate from "@/lib/getFormattedDate";
-import { getPostData, getSortedPostsData } from "@/lib/posts";
+import { getContentData, getSortedContentData } from "@/lib/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export function generateMetadata({ params }: { params: { postId: string } }) {
-	const posts = getSortedPostsData();
+	const posts = getSortedContentData("post");
 	const { postId } = params;
 
 	const post = posts.find((post) => post.id === postId);
@@ -22,33 +22,33 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 }
 
 export function generateStaticParams() {
-	const posts = getSortedPostsData();
+	const posts = getSortedContentData("post");
 	return posts.map((post) => ({
 		postId: post.id,
 	}));
 }
 
 export default async function Post({ params }: { params: { postId: string } }) {
-	const posts = getSortedPostsData();
+	const posts = getSortedContentData("post");
 	const { postId } = params;
 
 	if (!posts.find((post) => post.id === postId)) notFound();
 
-	const { title, date } = await getPostData(postId);
+	const { title, date } = await getContentData("post", postId);
 
 	const pubDate = getFormattedDate(date);
 
 	return (
 		<div className="max-w-3xl mx-auto">
 			<main className="markdown-content px-6 prose prose-xl prose-slate dark:prose-invert mx-auto mb-30">
-				<Link href="/posts">← Retour aux articles</Link>
+				<Link href="/posts">← Retour</Link>
 
 				<h1 className="text-3xl mt-8 mb-8">{title}</h1>
 				<p className="mt-0 mb-4">{pubDate}</p>
 				<article>
-					<MarkdownLoader filePath={`/content/blog/${postId}.md`} />
+					<MarkdownLoader filePath={`/content/post/${postId}.md`} />
 					<p className="mb-8 mt-8 text-xl font-semibold text-green-700">
-						<Link href="/posts">← Retour aux articles</Link>
+						<Link href="/posts">← Retour</Link>
 					</p>
 				</article>
 			</main>
