@@ -69,3 +69,19 @@ body {
 		/* Reduce margins on smaller screens */
 	}
 }
+
+.loader {
+	border-width: 4px;
+	border-color: white;
+	border-top-color: transparent;
+	border-radius: 50%;
+	width: 4rem; /* Taille */
+	height: 4rem;
+	animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
