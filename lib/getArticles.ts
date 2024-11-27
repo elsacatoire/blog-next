@@ -5,7 +5,7 @@ import matter from "gray-matter";
 const contentDirectory = (type: "post" | "project") =>
 	path.join(process.cwd(), `public/content/${type}`);
 
-export function getSortedContentData(type: "post" | "project") {
+export function getSortedArticlesData(type: "post" | "project") {
 	const directory = contentDirectory(type);
 	const fileNames = fs.readdirSync(directory);
 
@@ -28,7 +28,7 @@ export function getSortedContentData(type: "post" | "project") {
 	return allContentData.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export async function getContentData(type: "post" | "project", id: string) {
+export async function getArticleData(type: "post" | "project", id: string) {
 	const directory = contentDirectory(type);
 	const fullPath = path.join(directory, `${id}.md`);
 	const fileContents = fs.readFileSync(fullPath, "utf8");

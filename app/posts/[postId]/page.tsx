@@ -1,11 +1,11 @@
 import MarkdownLoader from "@/app/components/MarkdownLoader";
+import { getArticleData, getSortedArticlesData } from "@/lib/getArticles";
 import getFormattedDate from "@/lib/getFormattedDate";
-import { getContentData, getSortedContentData } from "@/lib/posts";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export function generateMetadata({ params }: { params: { postId: string } }) {
-	const posts = getSortedContentData("post");
+	const posts = getSortedArticlesData("post");
 	const { postId } = params;
 
 	const post = posts.find((post) => post.id === postId);
@@ -22,19 +22,19 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 }
 
 export function generateStaticParams() {
-	const posts = getSortedContentData("post");
+	const posts = getSortedArticlesData("post");
 	return posts.map((post) => ({
 		postId: post.id,
 	}));
 }
 
 export default async function Post({ params }: { params: { postId: string } }) {
-	const posts = getSortedContentData("post");
+	const posts = getSortedArticlesData("post");
 	const { postId } = params;
 
 	if (!posts.find((post) => post.id === postId)) notFound();
 
-	const { title, date } = await getContentData("post", postId);
+	const { title, date } = await getArticleData("post", postId);
 
 	const pubDate = getFormattedDate(date);
 
