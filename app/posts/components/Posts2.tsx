@@ -16,7 +16,7 @@ export default function Posts2({ sliceCount, title }: Posts2Props) {
 			</h1>
 			<ul className="w-full">
 				{posts.map((post) => (
-					<ListItem key={post.id} post={post} />
+					<ListItem key={post.id} post={post} type={"post"} />
 				))}
 			</ul>
 			<Link className="underline text-green-700" href="/posts">

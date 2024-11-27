@@ -19,7 +19,7 @@ export default function ListItem({ post, type }: Props) {
 			href={href}
 		>
 			<Image
-				className="imgProject rounded-l"
+				className="object-cover p-0 w-[150px] h-[150px] rounded-l"
 				src={image}
 				alt={alt || ""}
 				width={100}
