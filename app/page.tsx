@@ -7,33 +7,33 @@ import MyProfilePic from "./components/MyProfilePic";
 const frontendCardContent = {
 	title: "Frontend",
 	items: [
-		"TypeScript, HTML, CSS",
-		"React, NextUI, Next",
-		"Vue, Vuetify, Nuxt",
-		"React Native",
-		"ShadnUI",
-		"Jest",
+		{ id: 1, text: "TypeScript, HTML, CSS" },
+		{ id: 2, text: "React, NextUI, Next" },
+		{ id: 3, text: "Vue, Vuetify, Nuxt" },
+		{ id: 4, text: "React Native" },
+		{ id: 5, text: "ShadnUI" },
+		{ id: 6, text: "Jest" },
 	],
 };
 
 const backendCardContent = {
 	title: "Backend",
 	items: [
-		"Django RF (Python)",
-		"API REST",
-		"SQL (PostgreSQL), NoSQL (MongoDB)",
-		"Strapi (CMS Headless)",
-		"Java Spring Boot (notions)",
+		{ id: 1, text: "Django RF (Python)" },
+		{ id: 2, text: "API REST" },
+		{ id: 3, text: "SQL (PostgreSQL), NoSQL (MongoDB)" },
+		{ id: 4, text: "Strapi (CMS Headless)" },
+		{ id: 5, text: "Java Spring Boot (notions)" },
 	],
 };
 
 const othersCardContent = {
 	title: "Outils",
 	items: [
-		"Docker",
-		"Postman (tests API)",
-		"Github Actions (CI/CD)",
-		"Playwright (tests E2E)",
+		{ id: 1, text: "Docker" },
+		{ id: 2, text: "Postman (tests API)" },
+		{ id: 3, text: "Github Actions (CI/CD)" },
+		{ id: 4, text: "Playwright (tests E2E)" },
 	],
 };
 

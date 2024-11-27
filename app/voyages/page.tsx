@@ -7,38 +7,38 @@ import Gallery from "./components/Gallery";
 const productionCardContent = {
 	title: "Production",
 	items: [
-		"57 000km parcourus",
-		"22 pays",
-		"9 woofings",
-		"Pair & mob voyages",
-		"Création et animation de communautés de voyageurs libres",
-		"Beaucoup de riens",
+		{ id: 1, text: "57 000km parcourus" },
+		{ id: 2, text: "22 pays" },
+		{ id: 3, text: "9 woofings" },
+		{ id: 4, text: "Pair & mob voyages" },
+		{ id: 5, text: "Création et animation de communautés de voyageurs libres" },
+		{ id: 6, text: "Beaucoup de riens" },
 	],
 };
 
 const stackCardContent = {
 	title: "Stack",
 	items: [
-		"Renault Trafic L1L2",
-		"Batterie Lithium 100A",
-		"60L eau propre",
-		"Douche solaire",
-		"Pelle",
-		"Tout réparer avec du gaffeur",
-		"Park4Night",
-		"Chaussettes pilou",
+		{ id: 1, text: "Renault Trafic L1L2" },
+		{ id: 2, text: "Batterie Lithium 100A" },
+		{ id: 3, text: "60L eau propre" },
+		{ id: 4, text: "Douche solaire" },
+		{ id: 5, text: "Pelle" },
+		{ id: 6, text: "Tout réparer avec du gaffeur" },
+		{ id: 7, text: "Park4Night" },
+		{ id: 8, text: "Chaussettes pilou" },
 	],
 };
 
 const skillsCardContent = {
 	title: "Skills",
 	items: [
-		"Autonomie",
-		"Langages : anglais fluent, roumain, serbo-croate, turc",
-		"Ukulélé",
-		"Conduire un tracteur",
-		"Traite et fabrication de fromage",
-		"Randonnée",
+		{ id: 1, text: "Autonomie" },
+		{ id: 2, text: "Langages : anglais fluent, roumain, serbo-croate, turc" },
+		{ id: 3, text: "Ukulélé" },
+		{ id: 4, text: "Conduire un tracteur" },
+		{ id: 5, text: "Traite et fabrication de fromage" },
+		{ id: 6, text: "Randonnée" },
 	],
 };
 
