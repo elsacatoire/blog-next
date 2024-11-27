@@ -7,8 +7,8 @@ import { useState } from "react";
 const navbarItems = [
 	{ href: "/", label: "Accueil" },
 	{ href: "/presentation", label: "Présentation" },
-	{ href: "/posts", label: "Blog" },
 	{ href: "/projets", label: "Projets" },
+	{ href: "/posts", label: "Blog" },
 	{ href: "/voyages", label: "Voyages" },
 	{ href: "/contact", label: "Contact" },
 ];

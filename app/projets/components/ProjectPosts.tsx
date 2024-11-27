@@ -1,4 +1,4 @@
-import ListItemProject from "@/app/components/ListItemProjects";
+import ListItem from "@/app/components/ListItem";
 import { getSortedProjectsData } from "@/lib/projects";
 
 export default function ProjectPosts() {
@@ -7,7 +7,7 @@ export default function ProjectPosts() {
 		<section className="mx-auto">
 			<div className="w-full grid lg:grid-cols-2 gap-3">
 				{posts.map((post) => (
-					<ListItemProject key={post.id} post={post} />
+					<ListItem key={post.id} post={post} type={"project"} />
 				))}
 			</div>
 		</section>

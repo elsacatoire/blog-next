@@ -1,4 +1,4 @@
-import ListItemProject from "@/app/components/ListItemProjects";
+import ListItem from "@/app/components/ListItem";
 import { getSortedProjectsData } from "@/lib/projects";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ export default function ProjectPosts2() {
 
 			<div className="flex flex-col">
 				{posts.map((post) => (
-					<ListItemProject key={post.id} post={post} />
+					<ListItem key={post.id} post={post} type={"project"} />
 				))}
 			</div>
 			<Link className="underline text-green-700" href="/projets">

@@ -1,14 +1,8 @@
-type BlogPost = {
+type ArticlePost = {
 	id: string;
 	title: string;
 	date: string;
-	image: string;
-};
-
-type ProjectPost = {
-	id: string;
-	title: string;
-	date: string;
-	stack: string;
+	stack?: string;
+	alt?: string;
 	image: string;
 };
