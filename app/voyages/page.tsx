@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import Gallery from "../components/Gallery";
+import Gallery from "./components/Gallery";
 
 export default function Voyages() {
 	return (
-		<main>
+		<>
 			<div className="">
 				<div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
 					<div className="md:mt-5 md:w-1/3 md:order-1 ml-5">
@@ -126,6 +126,6 @@ export default function Voyages() {
 			<div>
 				<Gallery />
 			</div>
-		</main>
+		</>
 	);
 }

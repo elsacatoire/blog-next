@@ -1,18 +1,17 @@
 import React from "react";
-import Posts2 from "./Posts2";
-import ProjectPosts2 from "./ProjectPosts2";
+import Articles from "./Articles";
 
 function NewsPreview() {
 	return (
 		<div className="w-full flex flex-wrap mt-10 justify-center">
 			{[
 				{
-					component: <ProjectPosts2 />,
-					key: "project-posts",
+					component: <Articles articleType={"project"} limit={2} />,
+					key: "projects",
 					className: "md:pr-2 mb-4 md:mb-0",
 				},
 				{
-					component: <Posts2 title={"Derniers articles"} sliceCount={2} />,
+					component: <Articles articleType={"post"} limit={2} />,
 					key: "posts",
 					className: "md:pl-2",
 				},

@@ -1,5 +1,5 @@
+import Articles from "../components/Articles";
 import MarkdownLoader from "../components/MarkdownLoader";
-import Posts from "../components/Posts";
 
 export default function PostsPage() {
 	return (
@@ -10,7 +10,7 @@ export default function PostsPage() {
 				</h1>
 				<MarkdownLoader filePath="/content/blog-content.md" />
 			</div>
-			<Posts />
+			<Articles articleType={"post"} />
 		</>
 	);
 }

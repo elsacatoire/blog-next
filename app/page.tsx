@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 import CustomCardList from "./components/CustomCardList";
 import CvPaths from "./components/CvPaths";
-import MarkdownLoader from "./components/MarkdownLoader"; // Import du composant
-import MyProfilePic2 from "./components/MyProfilePic2";
+import MarkdownLoader from "./components/MarkdownLoader";
+import MyProfilePic from "./components/MyProfilePic";
 
 const frontendCardContent = {
 	title: "Frontend",
@@ -50,11 +50,15 @@ export default function Home() {
 				</div>
 
 				<div className="md:w-1/3 md:order-2 rounded-lg top m-auto">
-					<MyProfilePic2 />
+					<MyProfilePic
+						imgPath={"/images/profileD.jpg"}
+						alt={"Elsa Catoire"}
+						width={300}
+						height={300}
+					/>
 				</div>
 			</div>
 			<div className="flex flex-col gap-6">
-				{/* Section des cartes */}
 				<div className="flex flex-wrap gap-6 justify-between">
 					{[frontendCardContent, backendCardContent, othersCardContent].map(
 						(content) => (

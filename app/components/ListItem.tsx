@@ -3,30 +3,34 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
-	post: BlogPost;
+	post: ArticleType;
+	type: "project" | "post";
 };
 
-export default function ListItem({ post }: Props) {
-	const { id, title, date, image } = post;
+export default function ListItem({ post, type }: Props) {
+	const { id, title, date, stack, alt, image } = post;
 	const formattedDate = getFormattedDate(date);
+
+	const href = type === "project" ? `/projets/${id}` : `/posts/${id}`;
 
 	return (
 		<Link
-			className="mt-5 mx-auto w-full flex flex-col items-center rounded-lg bg-gray-300 border shadow md:flex-row md:max-w-xl  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
-			href={`/posts/${id}`}
+			className="mx-auto w-full flex flex-col items-center rounded-lg bg-gray-300 border shadow md:flex-row md:max-w-xl dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+			href={href}
 		>
 			<Image
-				className="imgProject rounded-l"
+				className="object-cover p-0 w-[150px] h-[150px] rounded-l"
 				src={image}
-				alt=""
+				alt={alt || ""}
 				width={100}
 				height={100}
 			/>
-			<div className="flex flex-col justify-between p-4 leading-normal">
-				<h1 className="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">
+			<div className="flex flex-col gap-2 justify-between p-3 leading-normal">
+				<h1 className="text-1xl font-bold text-gray-900 dark:text-white">
 					{title}
 				</h1>
-				<p className="text-left mt-7 text-sm font-normal text-green-700 dark:text-gray-400">
+				{stack && <h6 className="text-green-900 text-sm">{stack}</h6>}
+				<p className=" text-sm font-normal text-green-700 dark:text-gray-400">
 					{formattedDate}
 				</p>
 			</div>
