@@ -17,8 +17,10 @@ const images = [
 const Gallery = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [currentImage, setCurrentImage] = useState<string | null>(null);
+	const [isLoading, setIsLoading] = useState(false);
 
 	const handleImageClick = (src: string) => {
+		setIsLoading(true);
 		setCurrentImage(src);
 		setIsOpen(true);
 	};
@@ -26,6 +28,7 @@ const Gallery = () => {
 	const handleClose = () => {
 		setIsOpen(false);
 		setCurrentImage(null);
+		setIsLoading(false);
 	};
 
 	return (
@@ -48,6 +51,13 @@ const Gallery = () => {
 
 			{isOpen && currentImage && (
 				<div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
+
+					{isLoading && (
+						<div className="absolute z-10">
+							<div className="loader border-t-4 border-white border-solid rounded-full w-16 h-16 animate-spin" />
+						</div>
+					)}
+
 					<div className="relative max-w-full max-h-screen">
 						<Image
 							src={currentImage}
@@ -55,13 +65,14 @@ const Gallery = () => {
 							width={800}
 							height={800}
 							className="object-contain rounded-lg max-w-full max-h-screen"
-							style={{ width: "auto", height: "auto" }}
+							onLoadingComplete={() => setIsLoading(false)}
 							priority={true}
 						/>
+
 						<button
 							type="button"
 							onClick={handleClose}
-							className="absolute top-2 right-2 bg-white text-black rounded-full px-4 py-2"
+							className="absolute top-2 right-2 bg-white text-black rounded-full px-4 py-2 z-20"
 						>
 							X
 						</button>
