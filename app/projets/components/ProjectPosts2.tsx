@@ -1,6 +1,6 @@
+import ListItemProject from "@/app/components/ListItemProjects";
 import { getSortedProjectsData } from "@/lib/projects";
 import Link from "next/link";
-import ListItemProject from "./ListItemProjects";
 
 export default function ProjectPosts2() {
 	const posts = getSortedProjectsData().slice(0, 2);

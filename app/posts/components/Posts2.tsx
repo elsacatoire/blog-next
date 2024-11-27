@@ -1,6 +1,6 @@
+import ListItem from "@/app/components/ListItem";
 import { getSortedPostsData } from "@/lib/posts";
 import Link from "next/link";
-import ListItem from "./ListItem";
 
 type Posts2Props = {
 	sliceCount?: number;
