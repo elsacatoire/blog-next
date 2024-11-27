@@ -20,7 +20,7 @@ export function getSortedProjectsData() {
 		// Use gray-matter to parse the post metadata section
 		const matterResult = matter(fileContents);
 
-		const projectPost: ProjectPost = {
+		const projectPost: ArticleType = {
 			id,
 			title: matterResult.data.title,
 			date: matterResult.data.date,
@@ -47,7 +47,7 @@ export async function getProjectData(id: string) {
 
 	const contentHtml = processedContent.toString();
 
-	const projectPostWithHTML: ProjectPost & { contentHtml: string } = {
+	const projectPostWithHTML: ArticleType & { contentHtml: string } = {
 		id,
 		title: matterResult.data.title,
 		date: matterResult.data.date,

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
-	post: ArticlePost;
+	post: ArticleType;
 	type: "project" | "post";
 };
 

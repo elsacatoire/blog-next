@@ -1,4 +1,4 @@
-type ArticlePost = {
+type ArticleType = {
 	id: string;
 	title: string;
 	date: string;
