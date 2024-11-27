@@ -2,23 +2,29 @@ import CustomCardList from "../components/CustomCardList";
 import MarkdownLoader from "../components/MarkdownLoader";
 import MyProfilePic from "../components/MyProfilePic";
 
-const hobbies = [
-	"Perchée sur une montagne",
-	"Randonnée, escalade",
-	"Musique, ukulélé, chant",
-	"Ecologie, green-tech, low-tech",
-	"Bricolage, DIY",
-	"Jeux de rôle",
-	"English fluent",
-];
+const hobbiesCardContent = {
+	title: "Hobbies",
+	items: [
+		{ id: 1, text: "Perchée sur une montagne" },
+		{ id: 2, text: "Randonnée, escalade" },
+		{ id: 3, text: "Musique, ukulélé, chant" },
+		{ id: 4, text: "Ecologie, green-tech, low-tech" },
+		{ id: 5, text: "Bricolage, DIY" },
+		{ id: 6, text: "Jeux de rôle" },
+		{ id: 7, text: "English fluent" },
+	],
+};
 
-const diplomas = [
-	"2024: RNCP6 Conceptrice Développeuse d'Aplication",
-	"2016: Concours Cat A - Attachée Territoriale",
-	"2013: Master2 Management Culturel",
-	"2011: Licence3 LEA Anglais espagnol",
-	"2007: BAC S - Sciences de l'ingénieur",
-];
+const diplomasCardContent = {
+	title: "Diplômes",
+	items: [
+		{ id: 1, text: "2024: RNCP6 Conceptrice Développeuse d'Application" },
+		{ id: 2, text: "2016: Concours Cat A - Attachée Territoriale" },
+		{ id: 3, text: "2013: Master2 Management Culturel" },
+		{ id: 4, text: "2011: Licence3 LEA Anglais espagnol" },
+		{ id: 5, text: "2007: BAC S - Sciences de l'ingénieur" },
+	],
+};
 
 export default function Présentation() {
 	return (
@@ -38,8 +44,14 @@ export default function Présentation() {
 					width={600}
 					height={600}
 				/>
-				<CustomCardList title="Diplômes et concours" items={diplomas} />
-				<CustomCardList title="Et mon temps libre ?" items={hobbies} />
+				<CustomCardList
+					title={diplomasCardContent.title}
+					items={diplomasCardContent.items}
+				/>
+				<CustomCardList
+					title={hobbiesCardContent.title}
+					items={hobbiesCardContent.items}
+				/>
 			</div>
 		</div>
 	);

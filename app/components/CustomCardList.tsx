@@ -1,8 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 type CustomCardListProps = {
 	title: string;
-	items: string[];
+	items: { text: string; href?: string; id: number }[];
 };
 
 const CustomCardList = ({ title, items }: CustomCardListProps) => {
@@ -11,9 +12,22 @@ const CustomCardList = ({ title, items }: CustomCardListProps) => {
 			<h1 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 				{title}
 			</h1>
-			<ul className="font-normal text-gray-700 dark:text-gray-400 list-disc list-inside">
-				{items.map((item) => (
-					<li key={item}>{item}</li>
+			<ul className="flex flex-col font-normal text-gray-700 dark:text-gray-400 gap-1">
+				{items.map(({ id, text, href }) => (
+					<li key={id}>
+						{href ? (
+							<Link
+								href={href}
+								className="text-blue-500 hover:underline"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								&#x2022; {text}
+							</Link>
+						) : (
+							<span>&#x2022; {text}</span>
+						)}
+					</li>
 				))}
 			</ul>
 		</div>

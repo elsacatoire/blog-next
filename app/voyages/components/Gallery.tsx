@@ -51,7 +51,6 @@ const Gallery = () => {
 
 			{isOpen && currentImage && (
 				<div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
-
 					{isLoading && (
 						<div className="absolute z-10">
 							<div className="loader border-t-4 border-white border-solid rounded-full w-16 h-16 animate-spin" />
