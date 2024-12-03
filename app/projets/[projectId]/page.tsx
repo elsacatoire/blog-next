@@ -40,15 +40,16 @@ export default async function Project({
 	const pubDate = getFormattedDate(date);
 
 	return (
-		<div className="flex flex-col gap-4 max-w-4xl">
-			<Link href="/posts">← Retour</Link>
-			<h1 className="text-3xl mt-4 mb-0">{title}</h1>
-			<p className="mt-0">{pubDate}</p>
-			<MarkdownLoader filePath={`/content/project/${projectId}.md`} />
-			<p className="mb-8 mt-8 text-xl text-green-700 font-semibold">
+		<div className="flex flex-col gap-4 md:gap-8 max-w-4xl">
+						<div className="text-xl text-green-700 font-semibold">
 				<Link href="/projets">← Retour aux projets</Link>
-			</p>
-			<Link href="/posts">← Retour</Link>
+			</div>
+			<h1 className="text-3xl">{title}</h1>
+			<p>{pubDate}</p>
+			<MarkdownLoader filePath={`/content/project/${projectId}.md`} />
+			<div className="text-xl text-green-700 font-semibold">
+				<Link href="/projets">← Retour aux projets</Link>
+			</div>
 		</div>
 	);
 }

@@ -22,8 +22,8 @@ export default function ListItem({ post, type }: Props) {
 				className="object-cover p-0 w-[150px] h-[150px] rounded-l"
 				src={image}
 				alt={alt || ""}
-				width={100}
-				height={100}
+				width={500}
+				height={500}
 			/>
 			<div className="flex flex-col gap-2 justify-between p-3 leading-normal">
 				<h1 className="text-1xl font-bold text-gray-900 dark:text-white">
