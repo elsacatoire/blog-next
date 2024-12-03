@@ -11,7 +11,7 @@ const hobbiesCardContent = {
 		{ id: 4, text: "Ecologie, green-tech, low-tech" },
 		{ id: 5, text: "Bricolage, DIY" },
 		{ id: 6, text: "Jeux de rôle" },
-		{ id: 7, text: "English fluent" },
+		{ id: 7, text: "Fluent in english" },
 	],
 };
 

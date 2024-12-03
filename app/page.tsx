@@ -9,7 +9,7 @@ const frontendCardContent = {
 	items: [
 		{ id: 1, text: "TypeScript, HTML, CSS" },
 		{ id: 2, text: "React, NextUI, Next" },
-		{ id: 3, text: "Vue, Vuetify, Nuxt" },
+		{ id: 3, text: "Vue, Vuetify" },
 		{ id: 4, text: "React Native" },
 		{ id: 5, text: "ShadnUI" },
 		{ id: 6, text: "Jest" },
@@ -19,11 +19,12 @@ const frontendCardContent = {
 const backendCardContent = {
 	title: "Backend",
 	items: [
-		{ id: 1, text: "Django RF (Python)" },
-		{ id: 2, text: "API REST" },
-		{ id: 3, text: "SQL (PostgreSQL), NoSQL (MongoDB)" },
-		{ id: 4, text: "Strapi (CMS Headless)" },
-		{ id: 5, text: "Java Spring Boot (notions)" },
+		{ id: 1, text: "Python/Django RF" },
+		{ id: 2, text: "TypeScript/NodeJs" },
+		{ id: 3, text: "API REST" },
+		{ id: 4, text: "SQL (PostgreSQL), NoSQL (MongoDB)" },
+		{ id: 5, text: "Strapi (CMS Headless)" },
+		{ id: 6, text: "Java Spring Boot (notions)" },
 	],
 };
 
@@ -34,6 +35,7 @@ const othersCardContent = {
 		{ id: 2, text: "Postman (tests API)" },
 		{ id: 3, text: "Github Actions (CI/CD)" },
 		{ id: 4, text: "Playwright (tests E2E)" },
+		{ id: 5, text: "Jira" },
 	],
 };
 
