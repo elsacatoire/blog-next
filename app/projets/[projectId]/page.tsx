@@ -41,7 +41,7 @@ export default async function Project({
 
 	return (
 		<div className="flex flex-col gap-4 md:gap-8 max-w-4xl">
-						<div className="text-xl text-green-700 font-semibold">
+			<div className="text-xl text-green-700 font-semibold">
 				<Link href="/projets">← Retour aux projets</Link>
 			</div>
 			<h1 className="text-3xl">{title}</h1>
