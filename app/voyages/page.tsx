@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import CustomCardList from "../components/CustomCardList";
 import Gallery from "./components/Gallery";
@@ -43,6 +46,8 @@ const skillsCardContent = {
 };
 
 export default function Voyages() {
+	const [isLoading, setIsLoading] = useState(true);
+
 	return (
 		<div className="flex flex-col gap-4">
 			<div className="flex flex-col-reverse md:flex-row md:space-x-8 items-start">
@@ -62,12 +67,16 @@ export default function Voyages() {
 				</div>
 				<div className="md:w-2/3 md:order-2 rounded-lg center">
 					<Link href="https://www.polarsteps.com/ElsaCatoire">
+						{isLoading && (
+							<div className=" w-48 h-16 absolute inset-0 bg-gray-200 animate-pulse rounded-l dark:bg-gray-600" />
+						)}
 						<Image
 							className="mx-auto mt-0 rounded-lg"
 							src="/images/polarstep.jpg"
 							width={800}
 							height={800}
 							alt="Elsa Catoire"
+							onLoadingComplete={() => setIsLoading(false)}
 						/>
 					</Link>
 				</div>
