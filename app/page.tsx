@@ -8,10 +8,10 @@ const frontendCardContent = {
 	title: "Frontend",
 	items: [
 		{ id: 1, text: "TypeScript, HTML, CSS" },
-		{ id: 2, text: "React, NextUI, Next" },
+		{ id: 2, text: "React, Next" },
 		{ id: 3, text: "Vue, Vuetify" },
 		{ id: 4, text: "React Native" },
-		{ id: 5, text: "ShadnUI" },
+		{ id: 5, text: "Tailwind, ShadnUI, NextUI" },
 		{ id: 6, text: "Jest" },
 	],
 };
@@ -43,7 +43,7 @@ export default function Home() {
 	return (
 		<div className="flex flex-col gap-3 md:gap-8">
 			<h1 className="font-bold text-xl md:text-2xl">
-				Elsa — Développeuse Fullstack / Frontend
+				Elsa, Développeuse Front-end / Full-stack
 			</h1>
 			<div className="flex flex-col-reverse gap-4 md:flex-row md:space-x-8 items-start">
 				<div className="flex flex-col gap-4 md:w-2/3 md:order-1">

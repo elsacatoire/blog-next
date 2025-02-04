@@ -51,7 +51,7 @@ export default function Contact() {
 					<p className="text-green-700 md:px-20 md:mb-2 md:text-3l tracking-tight dark:text-white">
 						I am keen to work remotly and in english. I am used to live and work
 						abroad. Willing to move in another country and/or be remote for the
-						right project. So let&rsquo;s talk about your projetcts !
+						right project. So let&rsquo;s talk about yours !
 					</p>
 					<p className="mx-auto md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 						Des feedbacks techniques, typo, design ?
