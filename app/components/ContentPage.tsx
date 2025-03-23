@@ -13,7 +13,7 @@ type Props = {
 		id: string,
 	) => Promise<{ title: string; date: string; contentHtml?: string }>;
 	redirectPath: string;
-	contentPath: string; // Optionnel : Pour MarkdownLoader
+	contentPath: string;
 };
 
 export default async function ContentPage({
@@ -40,12 +40,10 @@ export default async function ContentPage({
 			<p className="mt-0 mb-4">{pubDate}</p>
 
 			<article>
-				{/* Si le type utilise du MarkdownLoader */}
 				{type === "blog" && contentPath && (
 					<MarkdownLoader filePath={`${contentPath}/${id}.md`} />
 				)}
 
-				{/* Si le type utilise du HTML brut (ReactMarkdown) */}
 				{type === "project" && contentHtml && (
 					<div>
 						<MarkdownLoader filePath={`${contentPath}/${id}.md`} />
