@@ -42,9 +42,14 @@ const othersCardContent = {
 export default function Home() {
 	return (
 		<div className="flex flex-col gap-3 md:gap-8">
-			<h1 className="font-bold text-xl md:text-2xl">
-				Elsa, Développeuse Front-end / Full-stack
+			<div className="flex flex-col gap-2">
+			<h1 className="flex font-bold text-xl md:text-2xl justify-center">
+				Elsa, Développeuse Front-end
 			</h1>
+			<h2 className="flex justify-center font-semibold text-m md:text-lg">Typescript, React</h2>
+
+			</div>
+
 			<div className="flex flex-col-reverse gap-4 md:flex-row md:space-x-8 items-start">
 				<div className="flex flex-col gap-4 md:w-2/3 md:order-1">
 					<MarkdownLoader filePath="/content/hero.md" />

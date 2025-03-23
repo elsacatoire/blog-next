@@ -1,5 +1,8 @@
 Après une reconversion professionnelle réussie, je suis désormais **Conceptrice Développeuse d'Applications** (titre RNCP niveau 6), après 9 mois d'école et 13 mois d’alternance.
 
+Depuis mars 2025 je suis "Junior frontend developer" chez Qlik, à Nantes.
+Je travaille également bénévolement sur des projets personnels et suis bénévoles pour le DevFest Nantes depuis 2023.
+
 ### Et avant ?
 
 - Directrice des Musées et Centres d’Art  
