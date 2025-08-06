@@ -7,9 +7,9 @@ Je travaille également bénévolement sur des projets d'amis:
 - https://nantalot.fr/
 - microset.ing (en cours)
 
-J'aimerais bien terminer la V1 de mon projet Gobiloc qui est mims de côté pour l'instant.
+J'aimerais bien terminer la V1 de mon projet Gobiloc qui est mis de côté pour l'instant.
 
-Je suis également bénévole pour le DevFest Nantes depuis 2023, dans l'équipe Safe qui veille à l'amélioration constante de l'inclusivité de cet l'évènement.
+Je suis également bénévole pour le DevFest Nantes depuis 2023, dans l'équipe Safe qui veille à l'amélioration constante de l'inclusivité de cet évènement.
 
 ### Et avant ?
 - Directrice des Musées et Centres d’Art  

@@ -31,7 +31,7 @@ export default function Footer() {
 					</Link>
 					. All Rights Reserved.
 					<p>
-						Crafetd with my own hands with love, approximation, Next.js, TailwindCSS and Markdown
+						Crafted with my own hands with love, approximation, Next.js, TailwindCSS and Markdown
 					</p>
 				</span>
 				<ul className="flex flex-wrap items-center mt-8 text-sm font-medium text-green-700 dark:text-gray-400 sm:mt-0">

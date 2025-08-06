@@ -4,4 +4,4 @@ Pour l'obtention du titre RNCP de **Conceptrice Développeuse d'Applications**, 
 
 En formation chez **Ada Tech School** nous avons appris en itérations alternant notions théoriques et projets de groupe. Nous étions encouragées à apprendre ensemble, favorisant l'entraide et la transmission plutôt que la compétition.
 
-Sur mon temps libre, je prends plaisir à explorer les technologies qui m'intriguent ou m'amusent, comme coder un **Snake** avec **P5.js**, ou encore tester des technos tels que **Next.js** et **TaiwlindCss** pour ce portfolio.
+Sur mon temps libre, je prends plaisir à explorer les technologies qui m'intriguent ou m'amusent, comme coder un **Snake** avec **P5.js**, ou encore tester des technos tels que **Next.js** et **TailwindCSS** pour ce portfolio.
