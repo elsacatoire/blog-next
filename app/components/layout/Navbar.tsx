@@ -32,7 +32,7 @@ export default function Navbar() {
 						width={100}
 						height={100}
 					/>
-					<span className="self-center text-2xl font-semibold whitespace-nowrap text-green-700 dark:text-white">
+					<span className="self-center text-2xl font-semibold whitespace-nowrap text-green-900 dark:text-white">
 						Elsa Catoire
 					</span>
 				</Link>
@@ -41,7 +41,7 @@ export default function Navbar() {
 				<button
 					type="button"
 					onClick={toggleMenu}
-					className="md:hidden inline-flex items-center p-2 w-10 h-10 text-gray-500 dark:text-white hover:text-green-700 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
+					className="md:hidden inline-flex items-center p-2 w-10 h-10 text-gray-900 dark:text-white hover:text-green-900 hover:bg-gray-900 dark:hover:bg-gray-800 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
 				>
 					<span className="sr-only">Open main menu</span>
 					<svg
@@ -76,9 +76,8 @@ export default function Navbar() {
 					</svg>
 				</button>
 				<div
-					className={`w-full md:block md:w-auto ${
-						isMenuOpen ? "block" : "hidden"
-					}`}
+					className={`w-full md:block md:w-auto ${isMenuOpen ? "block" : "hidden"
+						}`}
 				>
 					<ul className="font-medium flex flex-col p-4 mt-4 rounded-lg bg-gray-200 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-gray-200 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 						{navbarItems.map((item) => (

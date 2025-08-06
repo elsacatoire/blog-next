@@ -55,10 +55,10 @@ export default function Voyages() {
 					<h1 className="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 						Pérégrinations
 					</h1>
-					<p className="text-center font-semibold text-gray-700 dark:text-gray-400">
+					<p className="text-center font-semibold text-gray-900 dark:text-gray-400">
 						[Octobre 2020 - Janvier 2023]
 					</p>
-					<p className="font-normal text-gray-700 dark:text-gray-400">
+					<p className="font-normal text-gray-900 dark:text-gray-400">
 						Plus de 2 ans de voyages et bénévolats sur les routes
 						d&rsquo;Europe. Du Portugual à la Turquie en passant par
 						l&rsquo;Albanie et en rentrant par la Slovaquie... Un voyage

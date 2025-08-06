@@ -1,4 +1,4 @@
-En poste depuis mars 2025 en tant que  **Junior développeuse frontend chez Qlik**, dans l’équipe **Data Governance & AI**.  
+En poste depuis mars 2025 en tant que  **frontend developer chez Qlik/talend**, dans l’équipe **Data Governance & AI**,intégrée à l'équipe produit Qlik Cloud Data Integration, foaclisée sur Data Intégration et Data Quality.  
 - **Projets perso** en cours : 
   - **Gobiloc**, app de gestion entre colocataires,
   - Ce **portfolio**,
