@@ -1,5 +1,11 @@
 ### **Derniers projets**
 
+#### Projet professionnel : Qlik Cloud Data Integration – **Trust Score Feature**
+- Développement frontend TypeScript / React sur la plateforme Qlik Cloud, axé sur le module Data Integration et l’indicateur global **Trust Score** : un score unique d’évaluation de la fiabilité d’un dataset.
+- **Stack technique** : TypeScript, React/Vite. In house Design System.
+- **Environnement** : Architecture micro-frontends avec CICD via gitHub.
+- **Organisation** : Scrumban
+
 #### **Projet professionnel** : **AlloSerge avec la SNCF Connect & Tech**  
 Conception et développement d'une application à l'usage des Services Généraux et à direction des agents SNCF C&T.
 - **Stack technique** : TypeScript, React/Vite avec TailwindCSS et NextUI, NodeJS & Strapi (CMS headless), PostgreSQL, Authentification SSO.  

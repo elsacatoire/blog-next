@@ -56,13 +56,13 @@ export default function Contact() {
 					<p className="mx-auto md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 						Des feedbacks techniques, typo, design ?
 					</p>
-					<p className="font-normal text-gray-700 dark:text-gray-400">
+					<p className="font-normal text-gray-900 dark:text-gray-400">
 						J&apos;ai réalisé ce site pour apprendre
 					</p>
-					<p className="font-normal text-gray-700 dark:text-gray-400">
+					<p className="font-normal text-gray-900 dark:text-gray-400">
 						Il est très certainement imparfait
 					</p>
-					<p className="font-normal text-gray-700 dark:text-gray-400">
+					<p className="font-normal text-gray-900 dark:text-gray-400">
 						Tout retour bienveillant m&apos;aiderait à progresser
 					</p>
 					<p className="mb-2 md:text-1xl font-bold tracking-tight text-green-700 dark:text-white">

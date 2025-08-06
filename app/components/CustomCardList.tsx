@@ -12,7 +12,7 @@ const CustomCardList = ({ title, items }: CustomCardListProps) => {
 			<h1 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 				{title}
 			</h1>
-			<ul className="flex flex-col font-normal text-gray-700 dark:text-gray-400 gap-1">
+			<ul className="flex flex-col font-normal text-gray-900 dark:text-gray-400 gap-1">
 				{items.map(({ id, text, href }) => (
 					<li key={id}>
 						{href ? (
